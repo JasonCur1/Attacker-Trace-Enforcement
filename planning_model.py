@@ -8,9 +8,11 @@ def create_problem():
     # Define Types (Objects)
     tile = UserType("tile")
     attacker = UserType("attacker")
+    guard = UserType("guard")
 
     # Define Predicates (relationships)
     attacker_at = Fluent("at", BoolType(), a=attacker, t=tile)  # Attacker is at this tile
+    guard_at = Fluent("guard_at", BoolType(), g=guard, t=tile) # Guard is at this tile
     diamond_stolen = Fluent("diamond_stolen", BoolType())  # Has the diamond been stolen?
     furniture_at = Fluent("furniture_at", BoolType(), t=tile)  # Furniture is at this tile
     trace_left = Fluent("trace_left", BoolType(), t=tile)  # Whether a trace is left on this tile
@@ -20,6 +22,7 @@ def create_problem():
 
     # Add fluents to problems
     problem.add_fluent(attacker_at, default_initial_value=False)
+    problem.add_fluent(guard_at, default_initial_value=False)
     problem.add_fluent(diamond_stolen, default_initial_value=False)
     problem.add_fluent(furniture_at, default_initial_value=False)
     problem.add_fluent(trace_left, default_initial_value=False)
@@ -68,9 +71,27 @@ def create_problem():
     steal.add_effect(diamond_stolen(), True)
     problem.add_action(steal)
 
+
+    guard_tiles = [tiles["t20"], tiles["t21"], tiles["t22"], tiles["t32"], tiles["t42"], tiles["t41"], tiles["t40"], tiles["t30"]]
+    guard_move = InstantaneousAction("guard_move", current=tile, g=guard)
+    current, g = guard_move.parameters
+    guard_move.add_precondition(guard_at(g, current))
+
+    for i in range(len(guard_tiles)):
+        from_tile = guard_tiles[i]
+        to_tile = guard_tiles[(i+1) % len(guard_tiles)]  # Cycle back to start after last tile
+        guard_move.add_effect(guard_at(g, from_tile), False, Equals(current, from_tile))
+        guard_move.add_effect(guard_at(g, to_tile), True, Equals(current, from_tile))
+
+    problem.add_action(guard_move)
+
     # Define attacker
     attacker_obj = Object("houdini", attacker)
     problem.add_object(attacker_obj)
+
+    # Define guard
+    guard_obj = Object("paul blart", guard)
+    problem.add_object(guard_obj)
 
     # Initial Attacker Position
     initial_tile = tiles["t00"]
