@@ -31,7 +31,7 @@ def create_problem(domain_setup_fn: Callable[[Problem], dict]):
 
 problem = create_problem(setup_gridworld_domain)
 print(problem.kind)
-print(problem)
+#print(problem)
 
 with OneshotPlanner(problem_kind=problem.kind) as planner:
     result = planner.solve(problem)
@@ -43,15 +43,15 @@ with OneshotPlanner(problem_kind=problem.kind) as planner:
         print("No plan found.")
 
 # Uncomment to try blocksworld:
-# problem = create_problem(setup_blocksworld_domain)
-# print(problem.kind)
-# print(problem)
-#
-# with OneshotPlanner(problem_kind=problem.kind) as planner:
-#     result = planner.solve(problem)
-#     plan = result.plan
-#     if plan is not None:
-#         print("%s returned:" % planner.name)
-#         print(plan)
-#     else:
-#         print("No plan found.")
+problem = create_problem(setup_blocksworld_domain)
+print(problem.kind)
+#print(problem)
+
+with OneshotPlanner(problem_kind=problem.kind) as planner:
+    result = planner.solve(problem)
+    plan = result.plan
+    if plan is not None:
+        print("%s returned:" % planner.name)
+        print(plan)
+    else:
+        print("No plan found.")

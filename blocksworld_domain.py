@@ -1,91 +1,100 @@
 from unified_planning.shortcuts import *
-from unified_planning.model import Problem
+from unified_planning.model import Problem, Fluent
 
 def setup_blocksworld_domain(problem: Problem):
     block_type = UserType("block")
 
-    # Objects
-    blocks = [Object(name, block_type) for name in ["A", "B", "C"]]
-    for b in blocks:
-        problem.add_object(b)
+    # Create blocks
+    A = Object("A", block_type)
+    B = Object("B", block_type)
+    C = Object("C", block_type)
+    problem.add_objects([A, B, C])
 
     # Fluents
-    on = Fluent("on", BoolType(), x=block_type, y=block_type)  # block x is on block y
-    on_table = Fluent("on_table", BoolType(), x=block_type)    # block x is on table
-    clear = Fluent("clear", BoolType(), x=block_type)          # block x has nothing on top
-    holding = Fluent("holding", BoolType(), x=block_type)      # agent is holding block x
-    hand_empty = Fluent("hand_empty", BoolType())              # agent is holding nothing
+    on = Fluent("on", BoolType(), top=block_type, bottom=block_type)
+    on_table = Fluent("on_table", BoolType(), b=block_type)
+    clear = Fluent("clear", BoolType(), b=block_type)
+    holding = Fluent("holding", BoolType(), b=block_type)
+    hand_empty = Fluent("hand_empty", BoolType())
+    a_on_c_achieved = Fluent("a_on_c_achieved", BoolType())
 
-    # Add fluents
-    for f in [on, on_table, clear, holding]:
-        problem.add_fluent(f, default_initial_value=False)
+    problem.add_fluent(on, default_initial_value=False)
+    problem.add_fluent(on_table, default_initial_value=False)
+    problem.add_fluent(clear, default_initial_value=False)
+    problem.add_fluent(holding, default_initial_value=False)
     problem.add_fluent(hand_empty, default_initial_value=True)
+    problem.add_fluent(a_on_c_achieved, default_initial_value=False)
 
-    # --- Initial Configuration ---
-    # Stack: A on B, B on table, C on table
-    A, B, C = blocks
-    problem.set_initial_value(on(A, B), True)
-    problem.set_initial_value(on_table(B), True)
+    # Initial state
+    problem.set_initial_value(on(B, A), True)
+    problem.set_initial_value(on_table(A), True)
     problem.set_initial_value(on_table(C), True)
-    problem.set_initial_value(clear(A), True)
+    problem.set_initial_value(clear(B), True)
     problem.set_initial_value(clear(C), True)
-    problem.set_initial_value(clear(B), False)
+    problem.set_initial_value(clear(A), False)
     problem.set_initial_value(hand_empty(), True)
 
-    # --- Actions ---
+    # Actions
+    pickup = InstantaneousAction("pickup", b=block_type)
+    b = pickup.parameter("b")
+    pickup.add_precondition(on_table(b))
+    pickup.add_precondition(clear(b))
+    pickup.add_precondition(hand_empty())
+    pickup.add_effect(on_table(b), False)
+    pickup.add_effect(holding(b), True)
+    pickup.add_effect(clear(b), False)
+    pickup.add_effect(hand_empty(), False)
+    problem.add_action(pickup)
 
-    # Pick up from table
-    pick_up = InstantaneousAction("pick_up", x=block_type)
-    [x] = pick_up.parameters
-    pick_up.add_precondition(on_table(x))
-    pick_up.add_precondition(clear(x))
-    pick_up.add_precondition(hand_empty())
-    pick_up.add_effect(on_table(x), False)
-    pick_up.add_effect(clear(x), False)
-    pick_up.add_effect(holding(x), True)
-    pick_up.add_effect(hand_empty(), False)
-    problem.add_action(pick_up)
+    putdown = InstantaneousAction("putdown", b=block_type)
+    b = putdown.parameter("b")
+    putdown.add_precondition(holding(b))
+    putdown.add_effect(on_table(b), True)
+    putdown.add_effect(clear(b), True)
+    putdown.add_effect(holding(b), False)
+    putdown.add_effect(hand_empty(), True)
+    problem.add_action(putdown)
 
-    # Unstack from another block
-    unstack = InstantaneousAction("unstack", x=block_type, y=block_type)
-    x, y = unstack.parameters
-    unstack.add_precondition(on(x, y))
-    unstack.add_precondition(clear(x))
+    stack = InstantaneousAction("stack", top=block_type, bottom=block_type)
+    top, bottom = stack.parameters
+    stack.add_precondition(holding(top))
+    stack.add_precondition(clear(bottom))
+    stack.add_effect(holding(top), False)
+    stack.add_effect(clear(top), True)
+    stack.add_effect(clear(bottom), False)
+    stack.add_effect(on(top, bottom), True)
+    stack.add_effect(hand_empty(), True)
+    stack.add_effect(a_on_c_achieved, True, And(Equals(top, A), Equals(bottom, C)))
+
+    problem.add_action(stack)
+
+    unstack = InstantaneousAction("unstack", top=block_type, bottom=block_type)
+    top, bottom = unstack.parameters
+    unstack.add_precondition(on(top, bottom))
+    unstack.add_precondition(clear(top))
     unstack.add_precondition(hand_empty())
-    unstack.add_effect(on(x, y), False)
-    unstack.add_effect(clear(y), True)
-    unstack.add_effect(clear(x), False)
-    unstack.add_effect(holding(x), True)
+    unstack.add_effect(on(top, bottom), False)
+    unstack.add_effect(clear(bottom), True)
+    unstack.add_effect(holding(top), True)
+    unstack.add_effect(clear(top), False)
     unstack.add_effect(hand_empty(), False)
     problem.add_action(unstack)
 
-    # Put block on another block
-    stack = InstantaneousAction("stack", x=block_type, y=block_type)
-    x, y = stack.parameters
-    stack.add_precondition(holding(x))
-    stack.add_precondition(clear(y))
-    stack.add_effect(on(x, y), True)
-    stack.add_effect(clear(y), False)
-    stack.add_effect(clear(x), True)
-    stack.add_effect(holding(x), False)
-    stack.add_effect(hand_empty(), True)
-    problem.add_action(stack)
+    # --- Domain-guided goals ---
+    restore_conditions = [
+        Iff(on(B, A), True),
+        Iff(on_table(A), True),
+        Iff(on_table(C), True),
+        Iff(clear(B), True),
+        Iff(clear(C), True),
+        Iff(clear(A), False),
+        Iff(hand_empty(), True)
+    ]
 
-    # Put block on table
-    put_down = InstantaneousAction("put_down", x=block_type)
-    [x] = put_down.parameters
-    put_down.add_precondition(holding(x))
-    put_down.add_effect(on_table(x), True)
-    put_down.add_effect(clear(x), True)
-    put_down.add_effect(holding(x), False)
-    put_down.add_effect(hand_empty(), True)
-    problem.add_action(put_down)
-
-    # --- Final Setup ---
-    tracked_fluents = [on, on_table, clear]
-    success_conditions = [hand_empty()]  # No block should be in hand
+    success_conditions = [a_on_c_achieved()]
 
     return {
-        "fluents_to_track": tracked_fluents,
+        "restore_conditions": restore_conditions,
         "success_conditions": success_conditions
     }
+
