@@ -137,14 +137,17 @@ def setup_gridworld_domain(problem: Problem):
     problem.add_action(guard_move)
 
     # --- Final Configuration ---
-    tracked_fluents = [at, trace_left]
-    success_conditions = [
-        diamond_stolen(),
-        attacker_turn(),
-        Not(fail_state())
+    restore_conditions = [
+        Iff(at(attacker, tiles["t00"]), True),
+        Iff(at(guard, tiles["t20"]), True),
+        *[Iff(trace_left(t), False) for t in tiles.values()]
     ]
 
     return {
-        "fluents_to_track": tracked_fluents,
-        "success_conditions": success_conditions
+        "restore_conditions": restore_conditions,
+        "success_conditions": [
+            diamond_stolen(),
+            attacker_turn(),
+            Not(fail_state())
+        ]
     }
