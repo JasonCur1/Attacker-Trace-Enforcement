@@ -162,6 +162,7 @@ def create_problem():
 
 problem = create_problem()
 print(problem.kind)
+print(problem)
 
 with OneshotPlanner(problem_kind=problem.kind) as planner:
     result = planner.solve(problem)
