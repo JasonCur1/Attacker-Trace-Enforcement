@@ -25,7 +25,7 @@ def setup_gridworld_domain(problem: Problem):
     at = Fluent("at", BoolType(), a=agent_type, t=tile_type)
     diamond_stolen = Fluent("diamond_stolen", BoolType())
     furniture_at = Fluent("furniture_at", BoolType(), t=tile_type)
-    trace_left = Fluent("trace_left", BoolType(), t=tile_type)
+    no_trace_left = Fluent("no_trace_left", BoolType(), t=tile_type)
     able_to_be_cleaned = Fluent("able_to_be_cleaned", BoolType(), t=tile_type)
     attacker_visited = Fluent("attacker_visited", BoolType(), t=tile_type)
     guard_visited = Fluent("guard_visited", BoolType(), t=tile_type)
@@ -41,7 +41,7 @@ def setup_gridworld_domain(problem: Problem):
     problem.add_fluent(at, default_initial_value=False)
     problem.add_fluent(diamond_stolen, default_initial_value=False)
     problem.add_fluent(furniture_at, default_initial_value=False)
-    problem.add_fluent(trace_left, default_initial_value=False)
+    problem.add_fluent(no_trace_left, default_initial_value=False)
     problem.add_fluent(able_to_be_cleaned, default_initial_value=False)
     problem.add_fluent(attacker_visited, default_initial_value=False)
     problem.add_fluent(guard_visited, default_initial_value=False)
@@ -59,6 +59,10 @@ def setup_gridworld_domain(problem: Problem):
     furniture_tiles = {"t10", "t20", "t30", "t11", "t21", "t12", "t32", "t34"}
     for t in furniture_tiles:
         problem.set_initial_value(furniture_at(tiles[t]), True)
+
+    # All tiles start with no trace
+    for tile in tiles.values():
+        problem.set_initial_value(no_trace_left(tile), True)
 
     # Connected tiles
     for i in range(5):
@@ -86,7 +90,7 @@ def setup_gridworld_domain(problem: Problem):
     move.add_precondition(connected(curr, to))
     move.add_precondition(Equals(a, attacker))
     move.add_precondition(attacker_turn())
-    move.add_effect(trace_left(to), True, furniture_at(to))
+    move.add_effect(no_trace_left(to), False, furniture_at(to))
     move.add_effect(able_to_be_cleaned(curr), True, furniture_at(curr))
     move.add_effect(attacker_visited(to), True)
     move.add_effect(at(a, curr), False)
@@ -95,15 +99,25 @@ def setup_gridworld_domain(problem: Problem):
     move.add_effect(guard_turn(), True)
     problem.add_action(move)
 
+    # Wait
+    wait = InstantaneousAction("wait", loc=tile_type, a=agent_type)
+    loc, a = wait.parameters
+    wait.add_precondition(at(a, loc))
+    wait.add_precondition(Equals(a, attacker))
+    wait.add_precondition(attacker_turn())
+    wait.add_effect(attacker_turn(), False)
+    wait.add_effect(guard_turn(), True)
+    problem.add_action(wait)
+
     # Clean
     clean = InstantaneousAction("clean", curr=tile_type, a=agent_type)
     curr, a = clean.parameters
     clean.add_precondition(at(a, curr))
-    clean.add_precondition(trace_left(curr))
+    clean.add_precondition(Not(no_trace_left(curr)))
     clean.add_precondition(able_to_be_cleaned(curr))
     clean.add_precondition(attacker_visited(curr))
     clean.add_precondition(attacker_turn())
-    clean.add_effect(trace_left(curr), False)
+    clean.add_effect(no_trace_left(curr), True)
     clean.add_effect(able_to_be_cleaned(curr), False)
     clean.add_effect(attacker_turn(), False)
     clean.add_effect(guard_turn(), True)
@@ -133,21 +147,13 @@ def setup_gridworld_domain(problem: Problem):
     guard_move.add_effect(guard_turn(), False)
     guard_move.add_effect(attacker_turn(), True)
     guard_move.add_effect(fail_state(), True, at(attacker, to))
-    guard_move.add_effect(fail_state(), True, trace_left(to))
+    guard_move.add_effect(fail_state(), True, Not(no_trace_left(to))) # confusing.. I know
     problem.add_action(guard_move)
 
     # --- Final Configuration ---
-    restore_conditions = [
-        Iff(at(attacker, tiles["t00"]), True),
-        Iff(at(guard, tiles["t20"]), True),
-        *[Iff(trace_left(t), False) for t in tiles.values()]
-    ]
-
     return {
-        "restore_conditions": restore_conditions,
         "success_conditions": [
             diamond_stolen(),
-            attacker_turn(),
             Not(fail_state())
         ]
     }

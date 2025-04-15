@@ -1,46 +1,51 @@
 from unified_planning.shortcuts import *
-from unified_planning.model import Problem, Fluent, Parameter
-from typing import Callable
+from unified_planning.model import Problem, Fluent, Parameter, Object
+from typing import Callable, List
 
 from gridworld_domain import setup_gridworld_domain
 from blocksworld_domain import setup_blocksworld_domain
 
 def create_problem(domain_setup_fn: Callable[[Problem], dict]):
     """
-    Sets up a domain-independent problem using only the restore conditions
-    explicitly provided by the domain.
+    Sets up a domain-independent problem using a snapshot of the initial state
+    to ensure state restoration, and includes domain-specific success conditions.
     """
     problem = Problem("generalized_domain")
 
-    # Call domain-specific setup
+    # Setup domain
     setup_info = domain_setup_fn(problem)
+    domain_goals = setup_info.get("success_conditions", [])
 
-    restore_conditions = setup_info.get("restore_conditions", [])
-    success_conditions = setup_info.get("success_conditions", [])
+    # Take snapshot of initial state for restoration goals
+    restore_goals = []
+    for fluent_expr, val in problem.initial_values.items():
+        # Check if the FNode is a Boolean constant with value TRUE
+        if val.is_bool_constant() and val.bool_constant_value():
+            restore_goals.append(fluent_expr)
 
-    # Add restore goals (manually selected by domain)
-    for cond in restore_conditions:
-        problem.add_goal(cond)
 
-    # Add any additional success conditions
-    for cond in success_conditions:
-        problem.add_goal(cond)
+    #print(restore_goals)
+
+    # Add both restoration and domain-specific goals
+    for goal in restore_goals + domain_goals:
+        problem.add_goal(goal)
 
     return problem
 
 
-problem = create_problem(setup_gridworld_domain)
-print(problem.kind)
-#print(problem)
+# Select domain here
+# problem = create_problem(setup_gridworld_domain)
+# print(problem.goals)
+# #print(problem.initial_values)
 
-with OneshotPlanner(problem_kind=problem.kind) as planner:
-    result = planner.solve(problem)
-    plan = result.plan
-    if plan is not None:
-        print("%s returned:" % planner.name)
-        print(plan)
-    else:
-        print("No plan found.")
+# with OneshotPlanner(problem_kind=problem.kind) as planner:
+#     result = planner.solve(problem)
+#     plan = result.plan
+#     if plan is not None:
+#         print(f"{planner.name} returned:")
+#         print(plan)
+#     else:
+#         print("No plan found.")
 
 # Uncomment to try blocksworld:
 problem = create_problem(setup_blocksworld_domain)

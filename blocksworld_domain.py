@@ -81,20 +81,10 @@ def setup_blocksworld_domain(problem: Problem):
     problem.add_action(unstack)
 
     # --- Domain-guided goals ---
-    restore_conditions = [
-        Iff(on(B, A), True),
-        Iff(on_table(A), True),
-        Iff(on_table(C), True),
-        Iff(clear(B), True),
-        Iff(clear(C), True),
-        Iff(clear(A), False),
-        Iff(hand_empty(), True)
-    ]
 
     success_conditions = [a_on_c_achieved()]
 
     return {
-        "restore_conditions": restore_conditions,
         "success_conditions": success_conditions
     }
 
