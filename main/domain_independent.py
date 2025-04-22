@@ -1,5 +1,6 @@
 from unified_planning.shortcuts import *
 from unified_planning.model import Problem, Fluent, Parameter, Object
+from unified_planning.io import PDDLWriter
 from typing import Callable, List
 
 from gridworld_domain import setup_gridworld_domain
@@ -34,29 +35,35 @@ def create_problem(domain_setup_fn: Callable[[Problem], dict]):
 
 
 # Select domain here
-# problem = create_problem(setup_gridworld_domain)
-# print(problem.goals)
-# #print(problem.initial_values)
-
-# with OneshotPlanner(problem_kind=problem.kind) as planner:
-#     result = planner.solve(problem)
-#     plan = result.plan
-#     if plan is not None:
-#         print(f"{planner.name} returned:")
-#         print(plan)
-#     else:
-#         print("No plan found.")
-
-# Uncomment to try blocksworld:
-problem = create_problem(setup_blocksworld_domain)
-print(problem.kind)
-#print(problem)
+problem = create_problem(setup_gridworld_domain)
+print(problem.goals)
+#print(problem.initial_values)
 
 with OneshotPlanner(problem_kind=problem.kind) as planner:
     result = planner.solve(problem)
     plan = result.plan
     if plan is not None:
-        print("%s returned:" % planner.name)
+        print(f"{planner.name} returned:")
         print(plan)
     else:
         print("No plan found.")
+
+# Uncomment to try blocksworld:
+# problem = create_problem(setup_blocksworld_domain)
+# print(problem.kind)
+# #print(problem)
+
+# with OneshotPlanner(problem_kind=problem.kind) as planner:
+#     result = planner.solve(problem)
+#     plan = result.plan
+#     if plan is not None:
+#         print("%s returned:" % planner.name)
+#         print(plan)
+#     else:
+#         print("No plan found.")
+
+
+# Optionally write to PDDL files
+w = PDDLWriter(problem)
+w.write_domain('domain.pddl')
+w.write_problem('problem.pddl')
