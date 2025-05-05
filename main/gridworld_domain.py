@@ -24,10 +24,7 @@ def setup_gridworld_domain(problem: Problem):
 
     at = Fluent("at", BoolType(), a=agent_type, t=tile_type)
     diamond_stolen = Fluent("diamond_stolen", BoolType())
-    furniture_at = Fluent("furniture_at", BoolType(), t=tile_type)
     no_trace_left = Fluent("no_trace_left", BoolType(), t=tile_type)
-    able_to_be_cleaned = Fluent("able_to_be_cleaned", BoolType(), t=tile_type)
-    attacker_visited = Fluent("attacker_visited", BoolType(), t=tile_type)
     guard_visited = Fluent("guard_visited", BoolType(), t=tile_type)
     connected = Fluent("connected", BoolType(), x=tile_type, y=tile_type)
     connected.symmetric = True
@@ -40,10 +37,7 @@ def setup_gridworld_domain(problem: Problem):
     # Add fluents
     problem.add_fluent(at, default_initial_value=False)
     problem.add_fluent(diamond_stolen, default_initial_value=False)
-    problem.add_fluent(furniture_at, default_initial_value=False)
     problem.add_fluent(no_trace_left, default_initial_value=False)
-    problem.add_fluent(able_to_be_cleaned, default_initial_value=False)
-    problem.add_fluent(attacker_visited, default_initial_value=False)
     problem.add_fluent(guard_visited, default_initial_value=False)
     problem.add_fluent(connected, default_initial_value=False)
     problem.add_fluent(next_in_path, default_initial_value=False)
@@ -54,11 +48,6 @@ def setup_gridworld_domain(problem: Problem):
     # Initial values
     problem.set_initial_value(at(attacker, tiles["t00"]), True)
     problem.set_initial_value(at(guard, tiles["t20"]), True)
-
-    # Furniture
-    furniture_tiles = {"t10", "t20", "t30", "t11", "t21", "t12", "t32", "t34"}
-    for t in furniture_tiles:
-        problem.set_initial_value(furniture_at(tiles[t]), True)
 
     # All tiles start with no trace
     for tile in tiles.values():
@@ -90,13 +79,12 @@ def setup_gridworld_domain(problem: Problem):
     move.add_precondition(connected(curr, to))
     move.add_precondition(Equals(a, attacker))
     move.add_precondition(attacker_turn())
-    move.add_effect(no_trace_left(to), False, furniture_at(to))
-    move.add_effect(able_to_be_cleaned(curr), True, furniture_at(curr))
-    move.add_effect(attacker_visited(to), True)
+    move.add_effect(no_trace_left(to), False) # Dirtied the tile
     move.add_effect(at(a, curr), False)
     move.add_effect(at(a, to), True)
     move.add_effect(attacker_turn(), False)
     move.add_effect(guard_turn(), True)
+    move.add_effect(fail_state(), True, at(guard, to))
     problem.add_action(move)
 
     # Wait
@@ -113,12 +101,9 @@ def setup_gridworld_domain(problem: Problem):
     clean = InstantaneousAction("clean", curr=tile_type, a=agent_type)
     curr, a = clean.parameters
     clean.add_precondition(at(a, curr))
-    clean.add_precondition(Not(no_trace_left(curr)))
-    clean.add_precondition(able_to_be_cleaned(curr))
-    clean.add_precondition(attacker_visited(curr))
+    clean.add_precondition(Not(no_trace_left(curr))) # Tile must be dirty
     clean.add_precondition(attacker_turn())
     clean.add_effect(no_trace_left(curr), True)
-    clean.add_effect(able_to_be_cleaned(curr), False)
     clean.add_effect(attacker_turn(), False)
     clean.add_effect(guard_turn(), True)
     problem.add_action(clean)

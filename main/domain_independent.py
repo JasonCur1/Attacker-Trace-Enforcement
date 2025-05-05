@@ -36,7 +36,7 @@ def create_problem(domain_setup_fn: Callable[[Problem], dict]):
 
 # Select domain here
 problem = create_problem(setup_gridworld_domain)
-print(problem.goals)
+#print(problem.goals)
 #print(problem.initial_values)
 
 with OneshotPlanner(problem_kind=problem.kind) as planner:
