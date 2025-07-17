@@ -1,8 +1,99 @@
-(define (problem generalized_domain-problem)
- (:domain generalized_domain-domain)
- (:objects
-   t00 t01 t02 t03 t04 t10 t11 t12 t13 t14 t20 t21 t22 t23 t24 t30 t32 t33 t34 t40 t41 t42 t43 t44 - tile
- )
- (:init (at_ houdini t00) (at_ blart t20) (no_trace_left t00) (no_trace_left t01) (no_trace_left t02) (no_trace_left t03) (no_trace_left t04) (no_trace_left t10) (no_trace_left t11) (no_trace_left t12) (no_trace_left t13) (no_trace_left t14) (no_trace_left t20) (no_trace_left t21) (no_trace_left t22) (no_trace_left t23) (no_trace_left t24) (no_trace_left t30) (no_trace_left t31) (no_trace_left t32) (no_trace_left t33) (no_trace_left t34) (no_trace_left t40) (no_trace_left t41) (no_trace_left t42) (no_trace_left t43) (no_trace_left t44) (connected t00 t01) (connected t00 t10) (connected t01 t00) (connected t01 t02) (connected t01 t11) (connected t02 t01) (connected t02 t03) (connected t02 t12) (connected t03 t02) (connected t03 t04) (connected t03 t13) (connected t04 t03) (connected t04 t14) (connected t10 t11) (connected t10 t00) (connected t10 t20) (connected t11 t10) (connected t11 t12) (connected t11 t01) (connected t11 t21) (connected t12 t11) (connected t12 t13) (connected t12 t02) (connected t12 t22) (connected t13 t12) (connected t13 t14) (connected t13 t03) (connected t13 t23) (connected t14 t13) (connected t14 t04) (connected t14 t24) (connected t20 t21) (connected t20 t10) (connected t20 t30) (connected t21 t20) (connected t21 t22) (connected t21 t11) (connected t21 t31) (connected t22 t21) (connected t22 t23) (connected t22 t12) (connected t22 t32) (connected t23 t22) (connected t23 t24) (connected t23 t13) (connected t23 t33) (connected t24 t23) (connected t24 t14) (connected t24 t34) (connected t30 t31) (connected t30 t20) (connected t30 t40) (connected t31 t30) (connected t31 t32) (connected t31 t21) (connected t31 t41) (connected t32 t31) (connected t32 t33) (connected t32 t22) (connected t32 t42) (connected t33 t32) (connected t33 t34) (connected t33 t23) (connected t33 t43) (connected t34 t33) (connected t34 t24) (connected t34 t44) (connected t40 t41) (connected t40 t30) (connected t41 t40) (connected t41 t42) (connected t41 t31) (connected t42 t41) (connected t42 t43) (connected t42 t32) (connected t43 t42) (connected t43 t44) (connected t43 t33) (connected t44 t43) (connected t44 t34) (next_in_path t20 t21) (next_in_path t21 t22) (next_in_path t22 t32) (next_in_path t32 t42) (next_in_path t42 t41) (next_in_path t41 t40) (next_in_path t40 t30) (next_in_path t30 t20) (attacker_turn))
- (:goal (and (at_ houdini t00) (at_ blart t20) (no_trace_left t00) (no_trace_left t01) (no_trace_left t02) (no_trace_left t03) (no_trace_left t04) (no_trace_left t10) (no_trace_left t11) (no_trace_left t12) (no_trace_left t13) (no_trace_left t14) (no_trace_left t20) (no_trace_left t21) (no_trace_left t22) (no_trace_left t23) (no_trace_left t24) (no_trace_left t30) (no_trace_left t31) (no_trace_left t32) (no_trace_left t33) (no_trace_left t34) (no_trace_left t40) (no_trace_left t41) (no_trace_left t42) (no_trace_left t43) (no_trace_left t44) (connected t00 t01) (connected t00 t10) (connected t01 t00) (connected t01 t02) (connected t01 t11) (connected t02 t01) (connected t02 t03) (connected t02 t12) (connected t03 t02) (connected t03 t04) (connected t03 t13) (connected t04 t03) (connected t04 t14) (connected t10 t11) (connected t10 t00) (connected t10 t20) (connected t11 t10) (connected t11 t12) (connected t11 t01) (connected t11 t21) (connected t12 t11) (connected t12 t13) (connected t12 t02) (connected t12 t22) (connected t13 t12) (connected t13 t14) (connected t13 t03) (connected t13 t23) (connected t14 t13) (connected t14 t04) (connected t14 t24) (connected t20 t21) (connected t20 t10) (connected t20 t30) (connected t21 t20) (connected t21 t22) (connected t21 t11) (connected t21 t31) (connected t22 t21) (connected t22 t23) (connected t22 t12) (connected t22 t32) (connected t23 t22) (connected t23 t24) (connected t23 t13) (connected t23 t33) (connected t24 t23) (connected t24 t14) (connected t24 t34) (connected t30 t31) (connected t30 t20) (connected t30 t40) (connected t31 t30) (connected t31 t32) (connected t31 t21) (connected t31 t41) (connected t32 t31) (connected t32 t33) (connected t32 t22) (connected t32 t42) (connected t33 t32) (connected t33 t34) (connected t33 t23) (connected t33 t43) (connected t34 t33) (connected t34 t24) (connected t34 t44) (connected t40 t41) (connected t40 t30) (connected t41 t40) (connected t41 t42) (connected t41 t31) (connected t42 t41) (connected t42 t43) (connected t42 t32) (connected t43 t42) (connected t43 t44) (connected t43 t33) (connected t44 t43) (connected t44 t34) (next_in_path t20 t21) (next_in_path t21 t22) (next_in_path t22 t32) (next_in_path t32 t42) (next_in_path t42 t41) (next_in_path t41 t40) (next_in_path t40 t30) (next_in_path t30 t20) (attacker_turn) (diamond_stolen) (not (fail_state))))
+(define (problem steal-and-escape)
+    (:domain gridworld-attacker)
+
+    ;; Define all 16 locations for a 4x4 grid (loc-x-y)
+    (:objects
+        attacker-agent - attacker
+        guard-agent - guard
+        diamond-item - diamond
+        loc-0-0 loc-0-1 loc-0-2 loc-0-3
+        loc-1-0 loc-1-1 loc-1-2 loc-1-3
+        loc-2-0 loc-2-1 loc-2-2 loc-2-3
+        loc-3-0 loc-3-1 loc-3-2 loc-3-3 - location
+    )
+
+    ;; Initial State
+    (:init
+        ;; Attacker starts at top-left
+        (at attacker-agent loc-0-0)
+        ;; Guard starts at bottom-right column, top row (arbitrary, away from attacker/diamond)
+        (at guard-agent loc-3-0)
+        ;; Diamond is at bottom-right
+        (diamond-at loc-3-3)
+
+        ;; Initial state predicates
+        (not (has-diamond attacker-agent))
+        (not (is-caught))
+        (not (guard-found-trace))
+
+        ;; No traces initially
+        (not (is-traced loc-0-0)) (not (is-traced loc-0-1)) (not (is-traced loc-0-2)) (not (is-traced loc-0-3))
+        (not (is-traced loc-1-0)) (not (is-traced loc-1-1)) (not (is-traced loc-1-2)) (not (is-traced loc-1-3))
+        (not (is-traced loc-2-0)) (not (is-traced loc-2-1)) (not (is-traced loc-2-2)) (not (is-traced loc-2-3))
+        (not (is-traced loc-3-0)) (not (is-traced loc-3-1)) (not (is-traced loc-3-2)) (not (is-traced loc-3-3))
+
+        ;; No locations visited initially
+        (not (visited loc-0-0)) (not (visited loc-0-1)) (not (visited loc-0-2)) (not (visited loc-0-3))
+        (not (visited loc-1-0)) (not (visited loc-1-1)) (not (visited loc-1-2)) (not (visited loc-1-3))
+        (not (visited loc-2-0)) (not (visited loc-2-1)) (not (visited loc-2-2)) (not (visited loc-2-3))
+        (not (visited loc-3-0)) (not (visited loc-3-1)) (not (visited loc-3-2)) (not (visited loc-3-3))
+
+        ;; Generated connections for a 4x4 grid
+        (connected loc-0-0 loc-0-1)
+        (connected loc-0-0 loc-1-0)
+        (connected loc-0-1 loc-0-0)
+        (connected loc-0-1 loc-0-2)
+        (connected loc-0-1 loc-1-1)
+        (connected loc-0-2 loc-0-1)
+        (connected loc-0-2 loc-0-3)
+        (connected loc-0-2 loc-1-2)
+        (connected loc-0-3 loc-0-2)
+        (connected loc-0-3 loc-1-3)
+        (connected loc-1-0 loc-0-0)
+        (connected loc-1-0 loc-1-1)
+        (connected loc-1-0 loc-2-0)
+        (connected loc-1-1 loc-0-1)
+        (connected loc-1-1 loc-1-0)
+        (connected loc-1-1 loc-1-2)
+        (connected loc-1-1 loc-2-1)
+        (connected loc-1-2 loc-0-2)
+        (connected loc-1-2 loc-1-1)
+        (connected loc-1-2 loc-1-3)
+        (connected loc-1-2 loc-2-2)
+        (connected loc-1-3 loc-0-3)
+        (connected loc-1-3 loc-1-2)
+        (connected loc-1-3 loc-2-3)
+        (connected loc-2-0 loc-1-0)
+        (connected loc-2-0 loc-2-1)
+        (connected loc-2-0 loc-3-0)
+        (connected loc-2-1 loc-1-1)
+        (connected loc-2-1 loc-2-0)
+        (connected loc-2-1 loc-2-2)
+        (connected loc-2-1 loc-3-1)
+        (connected loc-2-2 loc-1-2)
+        (connected loc-2-2 loc-2-1)
+        (connected loc-2-2 loc-2-3)
+        (connected loc-2-2 loc-3-2)
+        (connected loc-2-3 loc-1-3)
+        (connected loc-2-3 loc-2-2)
+        (connected loc-2-3 loc-3-3)
+        (connected loc-3-0 loc-2-0)
+        (connected loc-3-0 loc-3-1)
+        (connected loc-3-1 loc-2-1)
+        (connected loc-3-1 loc-3-0)
+        (connected loc-3-1 loc-3-2)
+        (connected loc-3-2 loc-2-2)
+        (connected loc-3-2 loc-3-1)
+        (connected loc-3-2 loc-3-3)
+        (connected loc-3-3 loc-2-3)
+        (connected loc-3-3 loc-3-2)
+    )
+
+    ;; Goal State
+    (:goal (and (at attacker-agent loc-0-0)     ; Attacker returns to start
+                 (has-diamond attacker-agent)     ; Attacker has the diamond
+                 ;; All locations that were visited by the attacker must be cleaned (no trace left)
+                 (forall (?l - location) (imply (visited ?l) (not (is-traced ?l))))
+           )
+    )
 )
