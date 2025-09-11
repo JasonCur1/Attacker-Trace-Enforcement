@@ -1,0 +1,8 @@
+ConfigSpace==1.2.1
+more-itertools==10.8.0
+networkx==3.2.1
+numpy==2.0.2
+pyparsing==3.2.3
+scipy==1.13.1
+typing_extensions==4.15.0
+unified-planning==1.2.0

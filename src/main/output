@@ -1,0 +1,8590 @@
+begin_version
+3
+end_version
+begin_metric
+0
+end_metric
+57
+begin_variable
+var0
+-1
+2
+Atom at_(leader_blart, t00)
+NegatedAtom at_(leader_blart, t00)
+end_variable
+begin_variable
+var1
+-1
+2
+Atom at_(leader_blart, t04)
+NegatedAtom at_(leader_blart, t04)
+end_variable
+begin_variable
+var3
+-1
+2
+Atom at_(leader_blart, t44)
+NegatedAtom at_(leader_blart, t44)
+end_variable
+begin_variable
+var2
+-1
+2
+Atom at_(leader_blart, t40)
+NegatedAtom at_(leader_blart, t40)
+end_variable
+begin_variable
+var4
+-1
+2
+Atom at_(leader_blart, t01)
+NegatedAtom at_(leader_blart, t01)
+end_variable
+begin_variable
+var5
+-1
+2
+Atom at_(leader_blart, t10)
+NegatedAtom at_(leader_blart, t10)
+end_variable
+begin_variable
+var6
+-1
+2
+Atom at_(leader_blart, t03)
+NegatedAtom at_(leader_blart, t03)
+end_variable
+begin_variable
+var7
+-1
+2
+Atom at_(leader_blart, t02)
+NegatedAtom at_(leader_blart, t02)
+end_variable
+begin_variable
+var8
+-1
+2
+Atom at_(leader_blart, t14)
+NegatedAtom at_(leader_blart, t14)
+end_variable
+begin_variable
+var12
+-1
+2
+Atom at_(leader_blart, t34)
+NegatedAtom at_(leader_blart, t34)
+end_variable
+begin_variable
+var13
+-1
+2
+Atom at_(leader_blart, t24)
+NegatedAtom at_(leader_blart, t24)
+end_variable
+begin_variable
+var14
+-1
+2
+Atom at_(leader_blart, t43)
+NegatedAtom at_(leader_blart, t43)
+end_variable
+begin_variable
+var9
+-1
+2
+Atom at_(leader_blart, t30)
+NegatedAtom at_(leader_blart, t30)
+end_variable
+begin_variable
+var10
+-1
+2
+Atom at_(leader_blart, t20)
+NegatedAtom at_(leader_blart, t20)
+end_variable
+begin_variable
+var11
+-1
+2
+Atom at_(leader_blart, t41)
+NegatedAtom at_(leader_blart, t41)
+end_variable
+begin_variable
+var15
+-1
+2
+Atom at_(leader_blart, t42)
+NegatedAtom at_(leader_blart, t42)
+end_variable
+begin_variable
+var16
+-1
+2
+Atom at_(leader_blart, t11)
+NegatedAtom at_(leader_blart, t11)
+end_variable
+begin_variable
+var17
+-1
+2
+Atom at_(leader_blart, t13)
+NegatedAtom at_(leader_blart, t13)
+end_variable
+begin_variable
+var18
+-1
+2
+Atom at_(leader_blart, t12)
+NegatedAtom at_(leader_blart, t12)
+end_variable
+begin_variable
+var21
+-1
+2
+Atom at_(leader_blart, t33)
+NegatedAtom at_(leader_blart, t33)
+end_variable
+begin_variable
+var22
+-1
+2
+Atom at_(leader_blart, t23)
+NegatedAtom at_(leader_blart, t23)
+end_variable
+begin_variable
+var19
+-1
+2
+Atom at_(leader_blart, t31)
+NegatedAtom at_(leader_blart, t31)
+end_variable
+begin_variable
+var20
+-1
+2
+Atom at_(leader_blart, t21)
+NegatedAtom at_(leader_blart, t21)
+end_variable
+begin_variable
+var23
+-1
+2
+Atom at_(leader_blart, t32)
+NegatedAtom at_(leader_blart, t32)
+end_variable
+begin_variable
+var24
+-1
+2
+Atom at_(leader_blart, t22)
+NegatedAtom at_(leader_blart, t22)
+end_variable
+begin_variable
+var25
+-1
+2
+Atom at_(adversary_houdini, t04)
+NegatedAtom at_(adversary_houdini, t04)
+end_variable
+begin_variable
+var27
+-1
+2
+Atom at_(adversary_houdini, t44)
+NegatedAtom at_(adversary_houdini, t44)
+end_variable
+begin_variable
+var26
+-1
+2
+Atom at_(adversary_houdini, t40)
+NegatedAtom at_(adversary_houdini, t40)
+end_variable
+begin_variable
+var28
+-1
+2
+Atom at_(adversary_houdini, t03)
+NegatedAtom at_(adversary_houdini, t03)
+end_variable
+begin_variable
+var29
+-1
+2
+Atom at_(adversary_houdini, t14)
+NegatedAtom at_(adversary_houdini, t14)
+end_variable
+begin_variable
+var32
+-1
+2
+Atom at_(adversary_houdini, t34)
+NegatedAtom at_(adversary_houdini, t34)
+end_variable
+begin_variable
+var33
+-1
+2
+Atom at_(adversary_houdini, t24)
+NegatedAtom at_(adversary_houdini, t24)
+end_variable
+begin_variable
+var34
+-1
+2
+Atom at_(adversary_houdini, t43)
+NegatedAtom at_(adversary_houdini, t43)
+end_variable
+begin_variable
+var30
+-1
+2
+Atom at_(adversary_houdini, t30)
+NegatedAtom at_(adversary_houdini, t30)
+end_variable
+begin_variable
+var31
+-1
+2
+Atom at_(adversary_houdini, t41)
+NegatedAtom at_(adversary_houdini, t41)
+end_variable
+begin_variable
+var35
+-1
+2
+Atom at_(adversary_houdini, t42)
+NegatedAtom at_(adversary_houdini, t42)
+end_variable
+begin_variable
+var36
+-1
+2
+Atom at_(adversary_houdini, t02)
+NegatedAtom at_(adversary_houdini, t02)
+end_variable
+begin_variable
+var37
+-1
+2
+Atom at_(adversary_houdini, t13)
+NegatedAtom at_(adversary_houdini, t13)
+end_variable
+begin_variable
+var40
+-1
+2
+Atom at_(adversary_houdini, t33)
+NegatedAtom at_(adversary_houdini, t33)
+end_variable
+begin_variable
+var41
+-1
+2
+Atom at_(adversary_houdini, t23)
+NegatedAtom at_(adversary_houdini, t23)
+end_variable
+begin_variable
+var38
+-1
+2
+Atom at_(adversary_houdini, t20)
+NegatedAtom at_(adversary_houdini, t20)
+end_variable
+begin_variable
+var39
+-1
+2
+Atom at_(adversary_houdini, t31)
+NegatedAtom at_(adversary_houdini, t31)
+end_variable
+begin_variable
+var42
+-1
+2
+Atom at_(adversary_houdini, t32)
+NegatedAtom at_(adversary_houdini, t32)
+end_variable
+begin_variable
+var43
+-1
+2
+Atom at_(adversary_houdini, t01)
+NegatedAtom at_(adversary_houdini, t01)
+end_variable
+begin_variable
+var44
+-1
+2
+Atom at_(adversary_houdini, t12)
+NegatedAtom at_(adversary_houdini, t12)
+end_variable
+begin_variable
+var45
+-1
+2
+Atom at_(adversary_houdini, t22)
+NegatedAtom at_(adversary_houdini, t22)
+end_variable
+begin_variable
+var46
+-1
+2
+Atom at_(adversary_houdini, t21)
+NegatedAtom at_(adversary_houdini, t21)
+end_variable
+begin_variable
+var47
+-1
+2
+Atom at_(adversary_houdini, t11)
+NegatedAtom at_(adversary_houdini, t11)
+end_variable
+begin_variable
+var48
+-1
+2
+Atom at_(adversary_houdini, t10)
+NegatedAtom at_(adversary_houdini, t10)
+end_variable
+begin_variable
+var49
+-1
+2
+Atom at_(adversary_houdini, t00)
+NegatedAtom at_(adversary_houdini, t00)
+end_variable
+begin_variable
+var50
+-1
+2
+Atom no_trace_left(t03)
+NegatedAtom no_trace_left(t03)
+end_variable
+begin_variable
+var56
+-1
+2
+Atom diamond_stolen()
+NegatedAtom diamond_stolen()
+end_variable
+begin_variable
+var53
+-1
+2
+Atom no_trace_left(t44)
+NegatedAtom no_trace_left(t44)
+end_variable
+begin_variable
+var51
+-1
+2
+Atom no_trace_left(t01)
+NegatedAtom no_trace_left(t01)
+end_variable
+begin_variable
+var52
+-1
+2
+Atom no_trace_left(t42)
+NegatedAtom no_trace_left(t42)
+end_variable
+begin_variable
+var54
+-1
+2
+Atom no_trace_left(t43)
+NegatedAtom no_trace_left(t43)
+end_variable
+begin_variable
+var55
+-1
+2
+Atom fail_state()
+NegatedAtom fail_state()
+end_variable
+600
+begin_mutex_group
+mutex
+fw
+2
+25 0
+26 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+25 0
+27 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+25 0
+28 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+25 0
+29 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+25 0
+30 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+25 0
+31 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+25 0
+32 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+25 0
+33 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+25 0
+34 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+25 0
+35 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+25 0
+36 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+25 0
+37 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+25 0
+38 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+25 0
+39 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+25 0
+40 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+25 0
+41 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+25 0
+42 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+25 0
+43 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+25 0
+44 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+25 0
+45 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+25 0
+46 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+25 0
+47 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+25 0
+48 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+25 0
+49 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+26 0
+27 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+26 0
+28 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+26 0
+29 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+26 0
+30 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+26 0
+31 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+26 0
+32 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+26 0
+33 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+26 0
+34 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+26 0
+35 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+26 0
+36 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+26 0
+37 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+26 0
+38 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+26 0
+39 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+26 0
+40 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+26 0
+41 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+26 0
+42 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+26 0
+43 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+26 0
+44 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+26 0
+45 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+26 0
+46 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+26 0
+47 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+26 0
+48 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+26 0
+49 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+27 0
+28 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+27 0
+29 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+27 0
+30 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+27 0
+31 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+27 0
+32 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+27 0
+33 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+27 0
+34 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+27 0
+35 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+27 0
+36 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+27 0
+37 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+27 0
+38 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+27 0
+39 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+27 0
+40 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+27 0
+41 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+27 0
+42 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+27 0
+43 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+27 0
+44 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+27 0
+45 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+27 0
+46 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+27 0
+47 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+27 0
+48 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+27 0
+49 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+28 0
+29 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+28 0
+30 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+28 0
+31 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+28 0
+32 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+28 0
+33 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+28 0
+34 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+28 0
+35 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+28 0
+36 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+28 0
+37 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+28 0
+38 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+28 0
+39 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+28 0
+40 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+28 0
+41 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+28 0
+42 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+28 0
+43 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+28 0
+44 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+28 0
+45 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+28 0
+46 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+28 0
+47 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+28 0
+48 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+28 0
+49 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+29 0
+30 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+29 0
+31 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+29 0
+32 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+29 0
+33 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+29 0
+34 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+29 0
+35 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+29 0
+36 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+29 0
+37 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+29 0
+38 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+29 0
+39 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+29 0
+40 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+29 0
+41 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+29 0
+42 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+29 0
+43 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+29 0
+44 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+29 0
+45 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+29 0
+46 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+29 0
+47 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+29 0
+48 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+29 0
+49 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+30 0
+31 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+30 0
+32 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+30 0
+33 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+30 0
+34 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+30 0
+35 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+30 0
+36 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+30 0
+37 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+30 0
+38 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+30 0
+39 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+30 0
+40 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+30 0
+41 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+30 0
+42 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+30 0
+43 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+30 0
+44 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+30 0
+45 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+30 0
+46 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+30 0
+47 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+30 0
+48 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+30 0
+49 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+31 0
+32 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+31 0
+33 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+31 0
+34 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+31 0
+35 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+31 0
+36 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+31 0
+37 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+31 0
+38 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+31 0
+39 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+31 0
+40 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+31 0
+41 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+31 0
+42 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+31 0
+43 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+31 0
+44 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+31 0
+45 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+31 0
+46 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+31 0
+47 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+31 0
+48 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+31 0
+49 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+32 0
+33 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+32 0
+34 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+32 0
+35 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+32 0
+36 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+32 0
+37 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+32 0
+38 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+32 0
+39 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+32 0
+40 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+32 0
+41 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+32 0
+42 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+32 0
+43 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+32 0
+44 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+32 0
+45 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+32 0
+46 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+32 0
+47 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+32 0
+48 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+32 0
+49 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+33 0
+34 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+33 0
+35 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+33 0
+36 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+33 0
+37 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+33 0
+38 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+33 0
+39 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+33 0
+40 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+33 0
+41 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+33 0
+42 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+33 0
+43 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+33 0
+44 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+33 0
+45 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+33 0
+46 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+33 0
+47 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+33 0
+48 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+33 0
+49 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+34 0
+35 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+34 0
+36 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+34 0
+37 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+34 0
+38 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+34 0
+39 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+34 0
+40 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+34 0
+41 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+34 0
+42 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+34 0
+43 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+34 0
+44 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+34 0
+45 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+34 0
+46 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+34 0
+47 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+34 0
+48 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+34 0
+49 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+35 0
+36 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+35 0
+37 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+35 0
+38 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+35 0
+39 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+35 0
+40 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+35 0
+41 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+35 0
+42 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+35 0
+43 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+35 0
+44 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+35 0
+45 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+35 0
+46 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+35 0
+47 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+35 0
+48 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+35 0
+49 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+36 0
+37 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+36 0
+38 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+36 0
+39 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+36 0
+40 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+36 0
+41 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+36 0
+42 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+36 0
+43 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+36 0
+44 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+36 0
+45 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+36 0
+46 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+36 0
+47 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+36 0
+48 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+36 0
+49 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+37 0
+38 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+37 0
+39 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+37 0
+40 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+37 0
+41 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+37 0
+42 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+37 0
+43 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+37 0
+44 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+37 0
+45 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+37 0
+46 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+37 0
+47 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+37 0
+48 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+37 0
+49 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+38 0
+39 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+38 0
+40 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+38 0
+41 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+38 0
+42 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+38 0
+43 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+38 0
+44 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+38 0
+45 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+38 0
+46 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+38 0
+47 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+38 0
+48 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+38 0
+49 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+39 0
+40 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+39 0
+41 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+39 0
+42 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+39 0
+43 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+39 0
+44 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+39 0
+45 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+39 0
+46 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+39 0
+47 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+39 0
+48 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+39 0
+49 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+40 0
+41 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+40 0
+42 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+40 0
+43 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+40 0
+44 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+40 0
+45 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+40 0
+46 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+40 0
+47 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+40 0
+48 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+40 0
+49 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+41 0
+42 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+41 0
+43 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+41 0
+44 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+41 0
+45 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+41 0
+46 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+41 0
+47 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+41 0
+48 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+41 0
+49 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+42 0
+43 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+42 0
+44 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+42 0
+45 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+42 0
+46 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+42 0
+47 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+42 0
+48 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+42 0
+49 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+43 0
+44 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+43 0
+45 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+43 0
+46 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+43 0
+47 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+43 0
+48 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+43 0
+49 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+44 0
+45 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+44 0
+46 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+44 0
+47 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+44 0
+48 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+44 0
+49 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+45 0
+46 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+45 0
+47 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+45 0
+48 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+45 0
+49 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+46 0
+47 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+46 0
+48 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+46 0
+49 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+47 0
+48 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+47 0
+49 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+48 0
+49 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 0
+1 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 0
+2 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 0
+3 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 0
+4 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 0
+5 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 0
+6 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 0
+7 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 0
+8 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 0
+9 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 0
+10 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 0
+11 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 0
+12 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 0
+13 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 0
+14 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 0
+15 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 0
+16 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 0
+17 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 0
+18 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 0
+19 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 0
+20 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 0
+21 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 0
+22 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 0
+23 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+0 0
+24 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 0
+2 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 0
+3 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 0
+4 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 0
+5 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 0
+6 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 0
+7 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 0
+8 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 0
+9 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 0
+10 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 0
+11 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 0
+12 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 0
+13 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 0
+14 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 0
+15 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 0
+16 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 0
+17 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 0
+18 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 0
+19 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 0
+20 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 0
+21 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 0
+22 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 0
+23 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+1 0
+24 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+2 0
+3 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+2 0
+4 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+2 0
+5 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+2 0
+6 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+2 0
+7 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+2 0
+8 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+2 0
+9 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+2 0
+10 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+2 0
+11 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+2 0
+12 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+2 0
+13 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+2 0
+14 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+2 0
+15 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+2 0
+16 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+2 0
+17 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+2 0
+18 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+2 0
+19 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+2 0
+20 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+2 0
+21 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+2 0
+22 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+2 0
+23 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+2 0
+24 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+3 0
+4 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+3 0
+5 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+3 0
+6 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+3 0
+7 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+3 0
+8 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+3 0
+9 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+3 0
+10 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+3 0
+11 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+3 0
+12 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+3 0
+13 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+3 0
+14 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+3 0
+15 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+3 0
+16 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+3 0
+17 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+3 0
+18 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+3 0
+19 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+3 0
+20 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+3 0
+21 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+3 0
+22 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+3 0
+23 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+3 0
+24 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+4 0
+5 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+4 0
+6 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+4 0
+7 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+4 0
+8 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+4 0
+9 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+4 0
+10 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+4 0
+11 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+4 0
+12 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+4 0
+13 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+4 0
+14 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+4 0
+15 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+4 0
+16 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+4 0
+17 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+4 0
+18 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+4 0
+19 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+4 0
+20 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+4 0
+21 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+4 0
+22 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+4 0
+23 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+4 0
+24 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+5 0
+6 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+5 0
+7 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+5 0
+8 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+5 0
+9 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+5 0
+10 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+5 0
+11 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+5 0
+12 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+5 0
+13 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+5 0
+14 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+5 0
+15 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+5 0
+16 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+5 0
+17 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+5 0
+18 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+5 0
+19 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+5 0
+20 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+5 0
+21 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+5 0
+22 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+5 0
+23 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+5 0
+24 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+6 0
+7 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+6 0
+8 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+6 0
+9 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+6 0
+10 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+6 0
+11 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+6 0
+12 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+6 0
+13 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+6 0
+14 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+6 0
+15 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+6 0
+16 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+6 0
+17 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+6 0
+18 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+6 0
+19 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+6 0
+20 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+6 0
+21 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+6 0
+22 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+6 0
+23 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+6 0
+24 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+7 0
+8 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+7 0
+9 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+7 0
+10 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+7 0
+11 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+7 0
+12 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+7 0
+13 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+7 0
+14 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+7 0
+15 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+7 0
+16 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+7 0
+17 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+7 0
+18 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+7 0
+19 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+7 0
+20 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+7 0
+21 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+7 0
+22 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+7 0
+23 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+7 0
+24 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+8 0
+9 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+8 0
+10 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+8 0
+11 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+8 0
+12 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+8 0
+13 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+8 0
+14 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+8 0
+15 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+8 0
+16 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+8 0
+17 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+8 0
+18 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+8 0
+19 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+8 0
+20 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+8 0
+21 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+8 0
+22 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+8 0
+23 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+8 0
+24 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+9 0
+10 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+9 0
+11 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+9 0
+12 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+9 0
+13 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+9 0
+14 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+9 0
+15 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+9 0
+16 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+9 0
+17 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+9 0
+18 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+9 0
+19 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+9 0
+20 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+9 0
+21 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+9 0
+22 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+9 0
+23 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+9 0
+24 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+10 0
+11 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+10 0
+12 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+10 0
+13 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+10 0
+14 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+10 0
+15 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+10 0
+16 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+10 0
+17 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+10 0
+18 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+10 0
+19 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+10 0
+20 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+10 0
+21 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+10 0
+22 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+10 0
+23 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+10 0
+24 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+11 0
+12 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+11 0
+13 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+11 0
+14 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+11 0
+15 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+11 0
+16 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+11 0
+17 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+11 0
+18 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+11 0
+19 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+11 0
+20 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+11 0
+21 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+11 0
+22 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+11 0
+23 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+11 0
+24 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+12 0
+13 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+12 0
+14 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+12 0
+15 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+12 0
+16 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+12 0
+17 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+12 0
+18 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+12 0
+19 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+12 0
+20 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+12 0
+21 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+12 0
+22 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+12 0
+23 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+12 0
+24 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+13 0
+14 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+13 0
+15 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+13 0
+16 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+13 0
+17 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+13 0
+18 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+13 0
+19 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+13 0
+20 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+13 0
+21 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+13 0
+22 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+13 0
+23 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+13 0
+24 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+14 0
+15 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+14 0
+16 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+14 0
+17 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+14 0
+18 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+14 0
+19 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+14 0
+20 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+14 0
+21 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+14 0
+22 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+14 0
+23 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+14 0
+24 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+15 0
+16 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+15 0
+17 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+15 0
+18 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+15 0
+19 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+15 0
+20 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+15 0
+21 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+15 0
+22 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+15 0
+23 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+15 0
+24 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+16 0
+17 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+16 0
+18 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+16 0
+19 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+16 0
+20 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+16 0
+21 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+16 0
+22 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+16 0
+23 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+16 0
+24 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+17 0
+18 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+17 0
+19 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+17 0
+20 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+17 0
+21 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+17 0
+22 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+17 0
+23 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+17 0
+24 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+18 0
+19 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+18 0
+20 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+18 0
+21 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+18 0
+22 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+18 0
+23 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+18 0
+24 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+19 0
+20 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+19 0
+21 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+19 0
+22 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+19 0
+23 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+19 0
+24 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+20 0
+21 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+20 0
+22 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+20 0
+23 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+20 0
+24 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+21 0
+22 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+21 0
+23 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+21 0
+24 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+22 0
+23 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+22 0
+24 0
+end_mutex_group
+begin_mutex_group
+mutex
+fw
+2
+23 0
+24 0
+end_mutex_group
+begin_state
+1
+1
+1
+0
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+0
+0
+1
+0
+0
+0
+0
+1
+end_state
+begin_goal
+8
+49 0
+50 0
+51 0
+52 0
+53 0
+54 0
+55 0
+56 1
+end_goal
+172
+begin_operator
+attack_clean t01 adversary_houdini
+1
+43 0
+1
+0 53 1 0
+1
+end_operator
+begin_operator
+attack_clean t01 leader_blart
+1
+4 0
+1
+0 53 1 0
+1
+end_operator
+begin_operator
+attack_clean t03 adversary_houdini
+1
+28 0
+1
+0 50 1 0
+1
+end_operator
+begin_operator
+attack_clean t03 leader_blart
+1
+6 0
+1
+0 50 1 0
+1
+end_operator
+begin_operator
+attack_clean t42 adversary_houdini
+1
+35 0
+1
+0 54 1 0
+1
+end_operator
+begin_operator
+attack_clean t42 leader_blart
+1
+15 0
+1
+0 54 1 0
+1
+end_operator
+begin_operator
+attack_clean t43 adversary_houdini
+1
+32 0
+1
+0 55 1 0
+1
+end_operator
+begin_operator
+attack_clean t43 leader_blart
+1
+11 0
+1
+0 55 1 0
+1
+end_operator
+begin_operator
+attack_clean t44 adversary_houdini
+1
+26 0
+1
+0 52 1 0
+1
+end_operator
+begin_operator
+attack_clean t44 leader_blart
+1
+2 0
+1
+0 52 1 0
+1
+end_operator
+begin_operator
+attack_move t00 t01 adversary_houdini
+0
+4
+0 49 0 1
+0 43 -1 0
+1 4 0 56 -1 0
+0 53 -1 1
+1
+end_operator
+begin_operator
+attack_move t00 t10 adversary_houdini
+0
+3
+0 49 0 1
+0 48 -1 0
+1 5 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t01 t00 adversary_houdini
+0
+3
+0 49 -1 0
+0 43 0 1
+1 0 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t01 t02 adversary_houdini
+0
+3
+0 43 0 1
+0 36 -1 0
+1 7 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t01 t11 adversary_houdini
+0
+3
+0 43 0 1
+0 47 -1 0
+1 16 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t02 t01 adversary_houdini
+0
+4
+0 43 -1 0
+0 36 0 1
+1 4 0 56 -1 0
+0 53 -1 1
+1
+end_operator
+begin_operator
+attack_move t02 t03 adversary_houdini
+0
+4
+0 36 0 1
+0 28 -1 0
+1 6 0 56 -1 0
+0 50 -1 1
+1
+end_operator
+begin_operator
+attack_move t02 t12 adversary_houdini
+0
+3
+0 36 0 1
+0 44 -1 0
+1 18 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t03 t02 adversary_houdini
+0
+3
+0 36 -1 0
+0 28 0 1
+1 7 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t03 t04 adversary_houdini
+0
+3
+0 28 0 1
+0 25 -1 0
+1 1 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t03 t13 adversary_houdini
+0
+3
+0 28 0 1
+0 37 -1 0
+1 17 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t04 t03 adversary_houdini
+0
+4
+0 28 -1 0
+0 25 0 1
+1 6 0 56 -1 0
+0 50 -1 1
+1
+end_operator
+begin_operator
+attack_move t04 t14 adversary_houdini
+0
+3
+0 25 0 1
+0 29 -1 0
+1 8 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t10 t00 adversary_houdini
+0
+3
+0 49 -1 0
+0 48 0 1
+1 0 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t10 t11 adversary_houdini
+0
+3
+0 48 0 1
+0 47 -1 0
+1 16 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t10 t20 adversary_houdini
+0
+3
+0 48 0 1
+0 40 -1 0
+1 13 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t11 t01 adversary_houdini
+0
+4
+0 43 -1 0
+0 47 0 1
+1 4 0 56 -1 0
+0 53 -1 1
+1
+end_operator
+begin_operator
+attack_move t11 t10 adversary_houdini
+0
+3
+0 48 -1 0
+0 47 0 1
+1 5 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t11 t12 adversary_houdini
+0
+3
+0 47 0 1
+0 44 -1 0
+1 18 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t11 t21 adversary_houdini
+0
+3
+0 47 0 1
+0 46 -1 0
+1 22 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t12 t02 adversary_houdini
+0
+3
+0 36 -1 0
+0 44 0 1
+1 7 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t12 t11 adversary_houdini
+0
+3
+0 47 -1 0
+0 44 0 1
+1 16 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t12 t13 adversary_houdini
+0
+3
+0 44 0 1
+0 37 -1 0
+1 17 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t12 t22 adversary_houdini
+0
+3
+0 44 0 1
+0 45 -1 0
+1 24 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t13 t03 adversary_houdini
+0
+4
+0 28 -1 0
+0 37 0 1
+1 6 0 56 -1 0
+0 50 -1 1
+1
+end_operator
+begin_operator
+attack_move t13 t12 adversary_houdini
+0
+3
+0 44 -1 0
+0 37 0 1
+1 18 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t13 t14 adversary_houdini
+0
+3
+0 37 0 1
+0 29 -1 0
+1 8 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t13 t23 adversary_houdini
+0
+3
+0 37 0 1
+0 39 -1 0
+1 20 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t14 t04 adversary_houdini
+0
+3
+0 25 -1 0
+0 29 0 1
+1 1 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t14 t13 adversary_houdini
+0
+3
+0 37 -1 0
+0 29 0 1
+1 17 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t14 t24 adversary_houdini
+0
+3
+0 29 0 1
+0 31 -1 0
+1 10 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t20 t10 adversary_houdini
+0
+3
+0 48 -1 0
+0 40 0 1
+1 5 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t20 t21 adversary_houdini
+0
+3
+0 40 0 1
+0 46 -1 0
+1 22 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t20 t30 adversary_houdini
+0
+3
+0 40 0 1
+0 33 -1 0
+1 12 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t21 t11 adversary_houdini
+0
+3
+0 47 -1 0
+0 46 0 1
+1 16 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t21 t20 adversary_houdini
+0
+3
+0 40 -1 0
+0 46 0 1
+1 13 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t21 t22 adversary_houdini
+0
+3
+0 46 0 1
+0 45 -1 0
+1 24 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t21 t31 adversary_houdini
+0
+3
+0 46 0 1
+0 41 -1 0
+1 21 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t22 t12 adversary_houdini
+0
+3
+0 44 -1 0
+0 45 0 1
+1 18 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t22 t21 adversary_houdini
+0
+3
+0 46 -1 0
+0 45 0 1
+1 22 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t22 t23 adversary_houdini
+0
+3
+0 45 0 1
+0 39 -1 0
+1 20 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t22 t32 adversary_houdini
+0
+3
+0 45 0 1
+0 42 -1 0
+1 23 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t23 t13 adversary_houdini
+0
+3
+0 37 -1 0
+0 39 0 1
+1 17 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t23 t22 adversary_houdini
+0
+3
+0 45 -1 0
+0 39 0 1
+1 24 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t23 t24 adversary_houdini
+0
+3
+0 39 0 1
+0 31 -1 0
+1 10 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t23 t33 adversary_houdini
+0
+3
+0 39 0 1
+0 38 -1 0
+1 19 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t24 t14 adversary_houdini
+0
+3
+0 29 -1 0
+0 31 0 1
+1 8 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t24 t23 adversary_houdini
+0
+3
+0 39 -1 0
+0 31 0 1
+1 20 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t24 t34 adversary_houdini
+0
+3
+0 31 0 1
+0 30 -1 0
+1 9 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t30 t20 adversary_houdini
+0
+3
+0 40 -1 0
+0 33 0 1
+1 13 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t30 t31 adversary_houdini
+0
+3
+0 33 0 1
+0 41 -1 0
+1 21 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t30 t40 adversary_houdini
+0
+3
+0 33 0 1
+0 27 -1 0
+1 3 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t31 t21 adversary_houdini
+0
+3
+0 46 -1 0
+0 41 0 1
+1 22 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t31 t30 adversary_houdini
+0
+3
+0 33 -1 0
+0 41 0 1
+1 12 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t31 t32 adversary_houdini
+0
+3
+0 41 0 1
+0 42 -1 0
+1 23 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t31 t41 adversary_houdini
+0
+3
+0 41 0 1
+0 34 -1 0
+1 14 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t32 t22 adversary_houdini
+0
+3
+0 45 -1 0
+0 42 0 1
+1 24 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t32 t31 adversary_houdini
+0
+3
+0 41 -1 0
+0 42 0 1
+1 21 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t32 t33 adversary_houdini
+0
+3
+0 42 0 1
+0 38 -1 0
+1 19 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t32 t42 adversary_houdini
+0
+4
+0 42 0 1
+0 35 -1 0
+1 15 0 56 -1 0
+0 54 -1 1
+1
+end_operator
+begin_operator
+attack_move t33 t23 adversary_houdini
+0
+3
+0 39 -1 0
+0 38 0 1
+1 20 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t33 t32 adversary_houdini
+0
+3
+0 42 -1 0
+0 38 0 1
+1 23 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t33 t34 adversary_houdini
+0
+3
+0 38 0 1
+0 30 -1 0
+1 9 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t33 t43 adversary_houdini
+0
+4
+0 38 0 1
+0 32 -1 0
+1 11 0 56 -1 0
+0 55 -1 1
+1
+end_operator
+begin_operator
+attack_move t34 t24 adversary_houdini
+0
+3
+0 31 -1 0
+0 30 0 1
+1 10 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t34 t33 adversary_houdini
+0
+3
+0 38 -1 0
+0 30 0 1
+1 19 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t34 t44 adversary_houdini
+0
+4
+0 30 0 1
+0 26 -1 0
+1 2 0 56 -1 0
+0 52 -1 1
+1
+end_operator
+begin_operator
+attack_move t40 t30 adversary_houdini
+0
+3
+0 33 -1 0
+0 27 0 1
+1 12 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t40 t41 adversary_houdini
+0
+3
+0 27 0 1
+0 34 -1 0
+1 14 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t41 t31 adversary_houdini
+0
+3
+0 41 -1 0
+0 34 0 1
+1 21 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t41 t40 adversary_houdini
+0
+3
+0 27 -1 0
+0 34 0 1
+1 3 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t41 t42 adversary_houdini
+0
+4
+0 34 0 1
+0 35 -1 0
+1 15 0 56 -1 0
+0 54 -1 1
+1
+end_operator
+begin_operator
+attack_move t42 t32 adversary_houdini
+0
+3
+0 42 -1 0
+0 35 0 1
+1 23 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t42 t41 adversary_houdini
+0
+3
+0 34 -1 0
+0 35 0 1
+1 14 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t42 t43 adversary_houdini
+0
+4
+0 35 0 1
+0 32 -1 0
+1 11 0 56 -1 0
+0 55 -1 1
+1
+end_operator
+begin_operator
+attack_move t43 t33 adversary_houdini
+0
+3
+0 38 -1 0
+0 32 0 1
+1 19 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t43 t42 adversary_houdini
+0
+4
+0 35 -1 0
+0 32 0 1
+1 15 0 56 -1 0
+0 54 -1 1
+1
+end_operator
+begin_operator
+attack_move t43 t44 adversary_houdini
+0
+4
+0 32 0 1
+0 26 -1 0
+1 2 0 56 -1 0
+0 52 -1 1
+1
+end_operator
+begin_operator
+attack_move t44 t34 adversary_houdini
+0
+3
+0 30 -1 0
+0 26 0 1
+1 9 0 56 -1 0
+1
+end_operator
+begin_operator
+attack_move t44 t43 adversary_houdini
+0
+4
+0 32 -1 0
+0 26 0 1
+1 11 0 56 -1 0
+0 55 -1 1
+1
+end_operator
+begin_operator
+attack_steal t44 adversary_houdini
+1
+26 0
+1
+0 51 -1 0
+1
+end_operator
+begin_operator
+attack_steal t44 leader_blart
+1
+2 0
+1
+0 51 -1 0
+1
+end_operator
+begin_operator
+fix_move t00 t01 leader_blart
+0
+4
+0 0 0 1
+0 4 -1 0
+1 43 0 56 -1 0
+1 53 1 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t00 t10 leader_blart
+0
+3
+0 0 0 1
+0 5 -1 0
+1 48 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t01 t00 leader_blart
+0
+3
+0 0 -1 0
+0 4 0 1
+1 49 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t01 t02 leader_blart
+0
+3
+0 4 0 1
+0 7 -1 0
+1 36 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t01 t11 leader_blart
+0
+3
+0 4 0 1
+0 16 -1 0
+1 47 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t02 t01 leader_blart
+0
+4
+0 4 -1 0
+0 7 0 1
+1 43 0 56 -1 0
+1 53 1 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t02 t03 leader_blart
+0
+4
+0 7 0 1
+0 6 -1 0
+1 28 0 56 -1 0
+1 50 1 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t02 t12 leader_blart
+0
+3
+0 7 0 1
+0 18 -1 0
+1 44 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t03 t02 leader_blart
+0
+3
+0 7 -1 0
+0 6 0 1
+1 36 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t03 t04 leader_blart
+0
+3
+0 6 0 1
+0 1 -1 0
+1 25 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t03 t13 leader_blart
+0
+3
+0 6 0 1
+0 17 -1 0
+1 37 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t04 t03 leader_blart
+0
+4
+0 6 -1 0
+0 1 0 1
+1 28 0 56 -1 0
+1 50 1 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t04 t14 leader_blart
+0
+3
+0 1 0 1
+0 8 -1 0
+1 29 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t10 t00 leader_blart
+0
+3
+0 0 -1 0
+0 5 0 1
+1 49 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t10 t11 leader_blart
+0
+3
+0 5 0 1
+0 16 -1 0
+1 47 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t10 t20 leader_blart
+0
+3
+0 5 0 1
+0 13 -1 0
+1 40 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t11 t01 leader_blart
+0
+4
+0 4 -1 0
+0 16 0 1
+1 43 0 56 -1 0
+1 53 1 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t11 t10 leader_blart
+0
+3
+0 5 -1 0
+0 16 0 1
+1 48 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t11 t12 leader_blart
+0
+3
+0 16 0 1
+0 18 -1 0
+1 44 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t11 t21 leader_blart
+0
+3
+0 16 0 1
+0 22 -1 0
+1 46 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t12 t02 leader_blart
+0
+3
+0 7 -1 0
+0 18 0 1
+1 36 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t12 t11 leader_blart
+0
+3
+0 16 -1 0
+0 18 0 1
+1 47 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t12 t13 leader_blart
+0
+3
+0 18 0 1
+0 17 -1 0
+1 37 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t12 t22 leader_blart
+0
+3
+0 18 0 1
+0 24 -1 0
+1 45 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t13 t03 leader_blart
+0
+4
+0 6 -1 0
+0 17 0 1
+1 28 0 56 -1 0
+1 50 1 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t13 t12 leader_blart
+0
+3
+0 18 -1 0
+0 17 0 1
+1 44 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t13 t14 leader_blart
+0
+3
+0 17 0 1
+0 8 -1 0
+1 29 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t13 t23 leader_blart
+0
+3
+0 17 0 1
+0 20 -1 0
+1 39 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t14 t04 leader_blart
+0
+3
+0 1 -1 0
+0 8 0 1
+1 25 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t14 t13 leader_blart
+0
+3
+0 17 -1 0
+0 8 0 1
+1 37 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t14 t24 leader_blart
+0
+3
+0 8 0 1
+0 10 -1 0
+1 31 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t20 t10 leader_blart
+0
+3
+0 5 -1 0
+0 13 0 1
+1 48 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t20 t21 leader_blart
+0
+3
+0 13 0 1
+0 22 -1 0
+1 46 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t20 t30 leader_blart
+0
+3
+0 13 0 1
+0 12 -1 0
+1 33 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t21 t11 leader_blart
+0
+3
+0 16 -1 0
+0 22 0 1
+1 47 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t21 t20 leader_blart
+0
+3
+0 13 -1 0
+0 22 0 1
+1 40 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t21 t22 leader_blart
+0
+3
+0 22 0 1
+0 24 -1 0
+1 45 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t21 t31 leader_blart
+0
+3
+0 22 0 1
+0 21 -1 0
+1 41 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t22 t12 leader_blart
+0
+3
+0 18 -1 0
+0 24 0 1
+1 44 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t22 t21 leader_blart
+0
+3
+0 22 -1 0
+0 24 0 1
+1 46 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t22 t23 leader_blart
+0
+3
+0 24 0 1
+0 20 -1 0
+1 39 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t22 t32 leader_blart
+0
+3
+0 24 0 1
+0 23 -1 0
+1 42 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t23 t13 leader_blart
+0
+3
+0 17 -1 0
+0 20 0 1
+1 37 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t23 t22 leader_blart
+0
+3
+0 24 -1 0
+0 20 0 1
+1 45 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t23 t24 leader_blart
+0
+3
+0 20 0 1
+0 10 -1 0
+1 31 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t23 t33 leader_blart
+0
+3
+0 20 0 1
+0 19 -1 0
+1 38 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t24 t14 leader_blart
+0
+3
+0 8 -1 0
+0 10 0 1
+1 29 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t24 t23 leader_blart
+0
+3
+0 20 -1 0
+0 10 0 1
+1 39 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t24 t34 leader_blart
+0
+3
+0 10 0 1
+0 9 -1 0
+1 30 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t30 t20 leader_blart
+0
+3
+0 13 -1 0
+0 12 0 1
+1 40 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t30 t31 leader_blart
+0
+3
+0 12 0 1
+0 21 -1 0
+1 41 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t30 t40 leader_blart
+0
+3
+0 12 0 1
+0 3 -1 0
+1 27 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t31 t21 leader_blart
+0
+3
+0 22 -1 0
+0 21 0 1
+1 46 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t31 t30 leader_blart
+0
+3
+0 12 -1 0
+0 21 0 1
+1 33 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t31 t32 leader_blart
+0
+3
+0 21 0 1
+0 23 -1 0
+1 42 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t31 t41 leader_blart
+0
+3
+0 21 0 1
+0 14 -1 0
+1 34 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t32 t22 leader_blart
+0
+3
+0 24 -1 0
+0 23 0 1
+1 45 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t32 t31 leader_blart
+0
+3
+0 21 -1 0
+0 23 0 1
+1 41 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t32 t33 leader_blart
+0
+3
+0 23 0 1
+0 19 -1 0
+1 38 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t32 t42 leader_blart
+0
+4
+0 23 0 1
+0 15 -1 0
+1 35 0 56 -1 0
+1 54 1 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t33 t23 leader_blart
+0
+3
+0 20 -1 0
+0 19 0 1
+1 39 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t33 t32 leader_blart
+0
+3
+0 23 -1 0
+0 19 0 1
+1 42 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t33 t34 leader_blart
+0
+3
+0 19 0 1
+0 9 -1 0
+1 30 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t33 t43 leader_blart
+0
+4
+0 19 0 1
+0 11 -1 0
+1 32 0 56 -1 0
+1 55 1 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t34 t24 leader_blart
+0
+3
+0 10 -1 0
+0 9 0 1
+1 31 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t34 t33 leader_blart
+0
+3
+0 19 -1 0
+0 9 0 1
+1 38 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t34 t44 leader_blart
+0
+4
+0 9 0 1
+0 2 -1 0
+1 26 0 56 -1 0
+1 52 1 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t40 t30 leader_blart
+0
+3
+0 12 -1 0
+0 3 0 1
+1 33 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t40 t41 leader_blart
+0
+3
+0 3 0 1
+0 14 -1 0
+1 34 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t41 t31 leader_blart
+0
+3
+0 21 -1 0
+0 14 0 1
+1 41 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t41 t40 leader_blart
+0
+3
+0 3 -1 0
+0 14 0 1
+1 27 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t41 t42 leader_blart
+0
+4
+0 14 0 1
+0 15 -1 0
+1 35 0 56 -1 0
+1 54 1 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t42 t32 leader_blart
+0
+3
+0 23 -1 0
+0 15 0 1
+1 42 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t42 t41 leader_blart
+0
+3
+0 14 -1 0
+0 15 0 1
+1 34 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t42 t43 leader_blart
+0
+4
+0 15 0 1
+0 11 -1 0
+1 32 0 56 -1 0
+1 55 1 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t43 t33 leader_blart
+0
+3
+0 19 -1 0
+0 11 0 1
+1 38 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t43 t42 leader_blart
+0
+4
+0 15 -1 0
+0 11 0 1
+1 35 0 56 -1 0
+1 54 1 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t43 t44 leader_blart
+0
+4
+0 11 0 1
+0 2 -1 0
+1 26 0 56 -1 0
+1 52 1 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t44 t34 leader_blart
+0
+3
+0 9 -1 0
+0 2 0 1
+1 30 0 56 -1 0
+1
+end_operator
+begin_operator
+fix_move t44 t43 leader_blart
+0
+4
+0 11 -1 0
+0 2 0 1
+1 32 0 56 -1 0
+1 55 1 56 -1 0
+1
+end_operator
+0
+begin_SG
+switch 0
+check 0
+check 2
+92
+93
+check 0
+switch 1
+check 0
+check 2
+103
+104
+check 0
+switch 3
+check 0
+check 2
+159
+160
+check 0
+switch 2
+check 0
+switch 4
+check 3
+91
+170
+171
+check 0
+check 0
+switch 52
+check 0
+check 0
+check 1
+9
+check 0
+check 0
+switch 4
+check 0
+switch 5
+check 3
+94
+95
+96
+check 0
+check 0
+switch 53
+check 0
+check 0
+check 1
+1
+check 0
+check 0
+switch 5
+check 0
+check 3
+105
+106
+107
+check 0
+switch 6
+check 0
+switch 7
+check 3
+100
+101
+102
+check 0
+check 0
+switch 50
+check 0
+check 0
+check 1
+3
+check 0
+check 0
+switch 7
+check 0
+check 3
+97
+98
+99
+check 0
+switch 8
+check 0
+check 3
+120
+121
+122
+check 0
+switch 12
+check 0
+check 3
+141
+142
+143
+check 0
+switch 13
+check 0
+check 3
+123
+124
+125
+check 0
+switch 14
+check 0
+check 3
+161
+162
+163
+check 0
+switch 9
+check 0
+check 3
+156
+157
+158
+check 0
+switch 10
+check 0
+check 3
+138
+139
+140
+check 0
+switch 11
+check 0
+switch 15
+check 3
+167
+168
+169
+check 0
+check 0
+switch 55
+check 0
+check 0
+check 1
+7
+check 0
+check 0
+switch 15
+check 0
+switch 16
+check 3
+164
+165
+166
+check 0
+check 0
+switch 54
+check 0
+check 0
+check 1
+5
+check 0
+check 0
+switch 16
+check 0
+check 4
+108
+109
+110
+111
+check 0
+switch 17
+check 0
+check 4
+116
+117
+118
+119
+check 0
+switch 18
+check 0
+check 4
+112
+113
+114
+115
+check 0
+switch 21
+check 0
+check 4
+144
+145
+146
+147
+check 0
+switch 22
+check 0
+check 4
+126
+127
+128
+129
+check 0
+switch 19
+check 0
+check 4
+152
+153
+154
+155
+check 0
+switch 20
+check 0
+check 4
+134
+135
+136
+137
+check 0
+switch 23
+check 0
+check 4
+148
+149
+150
+151
+check 0
+switch 24
+check 0
+check 4
+130
+131
+132
+133
+check 0
+switch 25
+check 0
+check 2
+21
+22
+check 0
+switch 27
+check 0
+check 2
+77
+78
+check 0
+switch 26
+check 0
+switch 28
+check 3
+88
+89
+90
+check 0
+check 0
+switch 52
+check 0
+check 0
+check 1
+8
+check 0
+check 0
+switch 28
+check 0
+switch 29
+check 3
+18
+19
+20
+check 0
+check 0
+switch 50
+check 0
+check 0
+check 1
+2
+check 0
+check 0
+switch 29
+check 0
+check 3
+38
+39
+40
+check 0
+switch 33
+check 0
+check 3
+59
+60
+61
+check 0
+switch 34
+check 0
+check 3
+79
+80
+81
+check 0
+switch 30
+check 0
+check 3
+74
+75
+76
+check 0
+switch 31
+check 0
+check 3
+56
+57
+58
+check 0
+switch 32
+check 0
+switch 35
+check 3
+85
+86
+87
+check 0
+check 0
+switch 55
+check 0
+check 0
+check 1
+6
+check 0
+check 0
+switch 35
+check 0
+switch 36
+check 3
+82
+83
+84
+check 0
+check 0
+switch 54
+check 0
+check 0
+check 1
+4
+check 0
+check 0
+switch 36
+check 0
+check 3
+15
+16
+17
+check 0
+switch 37
+check 0
+check 4
+34
+35
+36
+37
+check 0
+switch 40
+check 0
+check 3
+41
+42
+43
+check 0
+switch 41
+check 0
+check 4
+62
+63
+64
+65
+check 0
+switch 38
+check 0
+check 4
+70
+71
+72
+73
+check 0
+switch 39
+check 0
+check 4
+52
+53
+54
+55
+check 0
+switch 42
+check 0
+check 4
+66
+67
+68
+69
+check 0
+switch 43
+check 0
+switch 44
+check 3
+12
+13
+14
+check 0
+check 0
+switch 53
+check 0
+check 0
+check 1
+0
+check 0
+check 0
+switch 44
+check 0
+check 4
+30
+31
+32
+33
+check 0
+switch 45
+check 0
+check 4
+48
+49
+50
+51
+check 0
+switch 46
+check 0
+check 4
+44
+45
+46
+47
+check 0
+switch 47
+check 0
+check 4
+26
+27
+28
+29
+check 0
+switch 48
+check 0
+check 3
+23
+24
+25
+check 0
+switch 49
+check 0
+check 2
+10
+11
+check 0
+check 0
+end_SG
+begin_DTG
+1
+1
+92
+0
+2
+0
+94
+1
+4 0
+0
+105
+1
+5 0
+end_DTG
+begin_DTG
+1
+1
+103
+0
+2
+0
+101
+1
+6 0
+0
+120
+1
+8 0
+end_DTG
+begin_DTG
+1
+1
+170
+0
+2
+0
+158
+1
+9 0
+0
+169
+1
+11 0
+end_DTG
+begin_DTG
+1
+1
+159
+0
+2
+0
+143
+1
+12 0
+0
+162
+1
+14 0
+end_DTG
+begin_DTG
+1
+1
+94
+0
+3
+0
+92
+1
+0 0
+0
+97
+1
+7 0
+0
+108
+1
+16 0
+end_DTG
+begin_DTG
+1
+1
+105
+0
+3
+0
+93
+1
+0 0
+0
+109
+1
+16 0
+0
+123
+1
+13 0
+end_DTG
+begin_DTG
+1
+1
+100
+0
+3
+0
+98
+1
+7 0
+0
+103
+1
+1 0
+0
+116
+1
+17 0
+end_DTG
+begin_DTG
+1
+1
+97
+0
+3
+0
+95
+1
+4 0
+0
+100
+1
+6 0
+0
+112
+1
+18 0
+end_DTG
+begin_DTG
+1
+1
+120
+0
+3
+0
+104
+1
+1 0
+0
+118
+1
+17 0
+0
+138
+1
+10 0
+end_DTG
+begin_DTG
+1
+1
+156
+0
+3
+0
+140
+1
+10 0
+0
+154
+1
+19 0
+0
+170
+1
+2 0
+end_DTG
+begin_DTG
+1
+1
+138
+0
+3
+0
+122
+1
+8 0
+0
+136
+1
+20 0
+0
+156
+1
+9 0
+end_DTG
+begin_DTG
+1
+1
+167
+0
+3
+0
+155
+1
+19 0
+0
+166
+1
+15 0
+0
+171
+1
+2 0
+end_DTG
+begin_DTG
+1
+1
+141
+0
+3
+0
+125
+1
+13 0
+0
+145
+1
+21 0
+0
+159
+1
+3 0
+end_DTG
+begin_DTG
+1
+1
+123
+0
+3
+0
+107
+1
+5 0
+0
+127
+1
+22 0
+0
+141
+1
+12 0
+end_DTG
+begin_DTG
+1
+1
+161
+0
+3
+0
+147
+1
+21 0
+0
+160
+1
+3 0
+0
+165
+1
+15 0
+end_DTG
+begin_DTG
+1
+1
+164
+0
+3
+0
+151
+1
+23 0
+0
+163
+1
+14 0
+0
+168
+1
+11 0
+end_DTG
+begin_DTG
+1
+1
+108
+0
+4
+0
+96
+1
+4 0
+0
+106
+1
+5 0
+0
+113
+1
+18 0
+0
+126
+1
+22 0
+end_DTG
+begin_DTG
+1
+1
+116
+0
+4
+0
+102
+1
+6 0
+0
+114
+1
+18 0
+0
+121
+1
+8 0
+0
+134
+1
+20 0
+end_DTG
+begin_DTG
+1
+1
+112
+0
+4
+0
+99
+1
+7 0
+0
+110
+1
+16 0
+0
+117
+1
+17 0
+0
+130
+1
+24 0
+end_DTG
+begin_DTG
+1
+1
+152
+0
+4
+0
+137
+1
+20 0
+0
+150
+1
+23 0
+0
+157
+1
+9 0
+0
+167
+1
+11 0
+end_DTG
+begin_DTG
+1
+1
+134
+0
+4
+0
+119
+1
+17 0
+0
+132
+1
+24 0
+0
+139
+1
+10 0
+0
+152
+1
+19 0
+end_DTG
+begin_DTG
+1
+1
+144
+0
+4
+0
+129
+1
+22 0
+0
+142
+1
+12 0
+0
+149
+1
+23 0
+0
+161
+1
+14 0
+end_DTG
+begin_DTG
+1
+1
+126
+0
+4
+0
+111
+1
+16 0
+0
+124
+1
+13 0
+0
+131
+1
+24 0
+0
+144
+1
+21 0
+end_DTG
+begin_DTG
+1
+1
+148
+0
+4
+0
+133
+1
+24 0
+0
+146
+1
+21 0
+0
+153
+1
+19 0
+0
+164
+1
+15 0
+end_DTG
+begin_DTG
+1
+1
+130
+0
+4
+0
+115
+1
+18 0
+0
+128
+1
+22 0
+0
+135
+1
+20 0
+0
+148
+1
+23 0
+end_DTG
+begin_DTG
+1
+1
+21
+0
+2
+0
+19
+1
+28 0
+0
+38
+1
+29 0
+end_DTG
+begin_DTG
+1
+1
+88
+0
+2
+0
+76
+1
+30 0
+0
+87
+1
+32 0
+end_DTG
+begin_DTG
+1
+1
+77
+0
+2
+0
+61
+1
+33 0
+0
+80
+1
+34 0
+end_DTG
+begin_DTG
+1
+1
+18
+0
+3
+0
+16
+1
+36 0
+0
+21
+1
+25 0
+0
+34
+1
+37 0
+end_DTG
+begin_DTG
+1
+1
+38
+0
+3
+0
+22
+1
+25 0
+0
+36
+1
+37 0
+0
+56
+1
+31 0
+end_DTG
+begin_DTG
+1
+1
+74
+0
+3
+0
+58
+1
+31 0
+0
+72
+1
+38 0
+0
+88
+1
+26 0
+end_DTG
+begin_DTG
+1
+1
+56
+0
+3
+0
+40
+1
+29 0
+0
+54
+1
+39 0
+0
+74
+1
+30 0
+end_DTG
+begin_DTG
+1
+1
+85
+0
+3
+0
+73
+1
+38 0
+0
+84
+1
+35 0
+0
+89
+1
+26 0
+end_DTG
+begin_DTG
+1
+1
+59
+0
+3
+0
+43
+1
+40 0
+0
+63
+1
+41 0
+0
+77
+1
+27 0
+end_DTG
+begin_DTG
+1
+1
+79
+0
+3
+0
+65
+1
+41 0
+0
+78
+1
+27 0
+0
+83
+1
+35 0
+end_DTG
+begin_DTG
+1
+1
+82
+0
+3
+0
+69
+1
+42 0
+0
+81
+1
+34 0
+0
+86
+1
+32 0
+end_DTG
+begin_DTG
+1
+1
+15
+0
+3
+0
+13
+1
+43 0
+0
+18
+1
+28 0
+0
+30
+1
+44 0
+end_DTG
+begin_DTG
+1
+1
+34
+0
+4
+0
+20
+1
+28 0
+0
+32
+1
+44 0
+0
+39
+1
+29 0
+0
+52
+1
+39 0
+end_DTG
+begin_DTG
+1
+1
+70
+0
+4
+0
+55
+1
+39 0
+0
+68
+1
+42 0
+0
+75
+1
+30 0
+0
+85
+1
+32 0
+end_DTG
+begin_DTG
+1
+1
+52
+0
+4
+0
+37
+1
+37 0
+0
+50
+1
+45 0
+0
+57
+1
+31 0
+0
+70
+1
+38 0
+end_DTG
+begin_DTG
+1
+1
+41
+0
+3
+0
+25
+1
+48 0
+0
+45
+1
+46 0
+0
+59
+1
+33 0
+end_DTG
+begin_DTG
+1
+1
+62
+0
+4
+0
+47
+1
+46 0
+0
+60
+1
+33 0
+0
+67
+1
+42 0
+0
+79
+1
+34 0
+end_DTG
+begin_DTG
+1
+1
+66
+0
+4
+0
+51
+1
+45 0
+0
+64
+1
+41 0
+0
+71
+1
+38 0
+0
+82
+1
+35 0
+end_DTG
+begin_DTG
+1
+1
+12
+0
+3
+0
+10
+1
+49 0
+0
+15
+1
+36 0
+0
+26
+1
+47 0
+end_DTG
+begin_DTG
+1
+1
+30
+0
+4
+0
+17
+1
+36 0
+0
+28
+1
+47 0
+0
+35
+1
+37 0
+0
+48
+1
+45 0
+end_DTG
+begin_DTG
+1
+1
+48
+0
+4
+0
+33
+1
+44 0
+0
+46
+1
+46 0
+0
+53
+1
+39 0
+0
+66
+1
+42 0
+end_DTG
+begin_DTG
+1
+1
+44
+0
+4
+0
+29
+1
+47 0
+0
+42
+1
+40 0
+0
+49
+1
+45 0
+0
+62
+1
+41 0
+end_DTG
+begin_DTG
+1
+1
+26
+0
+4
+0
+14
+1
+43 0
+0
+24
+1
+48 0
+0
+31
+1
+44 0
+0
+44
+1
+46 0
+end_DTG
+begin_DTG
+1
+1
+23
+0
+3
+0
+11
+1
+49 0
+0
+27
+1
+47 0
+0
+41
+1
+40 0
+end_DTG
+begin_DTG
+1
+1
+10
+0
+2
+0
+12
+1
+43 0
+0
+23
+1
+48 0
+end_DTG
+begin_DTG
+3
+1
+16
+1
+36 0
+1
+21
+1
+25 0
+1
+34
+1
+37 0
+2
+0
+2
+1
+28 0
+0
+3
+1
+6 0
+end_DTG
+begin_DTG
+0
+2
+0
+90
+1
+26 0
+0
+91
+1
+2 0
+end_DTG
+begin_DTG
+2
+1
+76
+1
+30 0
+1
+87
+1
+32 0
+2
+0
+8
+1
+26 0
+0
+9
+1
+2 0
+end_DTG
+begin_DTG
+3
+1
+10
+1
+49 0
+1
+15
+1
+36 0
+1
+26
+1
+47 0
+2
+0
+0
+1
+43 0
+0
+1
+1
+4 0
+end_DTG
+begin_DTG
+3
+1
+69
+1
+42 0
+1
+81
+1
+34 0
+1
+86
+1
+32 0
+2
+0
+4
+1
+35 0
+0
+5
+1
+15 0
+end_DTG
+begin_DTG
+3
+1
+73
+1
+38 0
+1
+84
+1
+35 0
+1
+89
+1
+26 0
+2
+0
+6
+1
+32 0
+0
+7
+1
+11 0
+end_DTG
+begin_DTG
+0
+94
+0
+126
+2
+22 0
+47 0
+0
+116
+2
+17 0
+50 1
+0
+117
+2
+17 0
+44 0
+0
+118
+2
+17 0
+29 0
+0
+119
+2
+17 0
+39 0
+0
+120
+2
+8 0
+25 0
+0
+121
+2
+8 0
+37 0
+0
+122
+2
+8 0
+31 0
+0
+123
+2
+13 0
+48 0
+0
+124
+2
+13 0
+46 0
+0
+125
+2
+13 0
+33 0
+0
+116
+2
+17 0
+28 0
+0
+127
+2
+22 0
+40 0
+0
+128
+2
+22 0
+45 0
+0
+129
+2
+22 0
+41 0
+0
+130
+2
+24 0
+44 0
+0
+131
+2
+24 0
+46 0
+0
+132
+2
+24 0
+39 0
+0
+133
+2
+24 0
+42 0
+0
+134
+2
+20 0
+37 0
+0
+135
+2
+20 0
+45 0
+0
+136
+2
+20 0
+31 0
+0
+106
+2
+5 0
+47 0
+0
+98
+2
+7 0
+28 0
+0
+98
+2
+7 0
+50 1
+0
+99
+2
+7 0
+44 0
+0
+100
+2
+6 0
+36 0
+0
+101
+2
+6 0
+25 0
+0
+102
+2
+6 0
+37 0
+0
+103
+2
+1 0
+28 0
+0
+103
+2
+1 0
+50 1
+0
+104
+2
+1 0
+29 0
+0
+105
+2
+5 0
+49 0
+0
+137
+2
+20 0
+38 0
+0
+107
+2
+5 0
+40 0
+0
+108
+2
+16 0
+43 0
+0
+108
+2
+16 0
+53 1
+0
+109
+2
+16 0
+48 0
+0
+110
+2
+16 0
+44 0
+0
+111
+2
+16 0
+46 0
+0
+112
+2
+18 0
+36 0
+0
+113
+2
+18 0
+47 0
+0
+114
+2
+18 0
+37 0
+0
+115
+2
+18 0
+45 0
+0
+165
+2
+15 0
+34 0
+0
+157
+2
+9 0
+38 0
+0
+158
+2
+9 0
+26 0
+0
+158
+2
+9 0
+52 1
+0
+159
+2
+3 0
+33 0
+0
+160
+2
+3 0
+34 0
+0
+161
+2
+14 0
+41 0
+0
+162
+2
+14 0
+27 0
+0
+163
+2
+14 0
+35 0
+0
+163
+2
+14 0
+54 1
+0
+164
+2
+15 0
+42 0
+0
+156
+2
+9 0
+31 0
+0
+166
+2
+15 0
+32 0
+0
+166
+2
+15 0
+55 1
+0
+167
+2
+11 0
+38 0
+0
+168
+2
+11 0
+35 0
+0
+168
+2
+11 0
+54 1
+0
+169
+2
+11 0
+26 0
+0
+169
+2
+11 0
+52 1
+0
+170
+2
+2 0
+30 0
+0
+171
+2
+2 0
+32 0
+0
+171
+2
+2 0
+55 1
+0
+148
+2
+23 0
+45 0
+0
+138
+2
+10 0
+29 0
+0
+139
+2
+10 0
+39 0
+0
+140
+2
+10 0
+30 0
+0
+141
+2
+12 0
+40 0
+0
+142
+2
+12 0
+41 0
+0
+143
+2
+12 0
+27 0
+0
+144
+2
+21 0
+46 0
+0
+145
+2
+21 0
+33 0
+0
+146
+2
+21 0
+42 0
+0
+147
+2
+21 0
+34 0
+0
+97
+2
+7 0
+53 1
+0
+149
+2
+23 0
+41 0
+0
+150
+2
+23 0
+38 0
+0
+151
+2
+23 0
+35 0
+0
+151
+2
+23 0
+54 1
+0
+152
+2
+19 0
+39 0
+0
+153
+2
+19 0
+42 0
+0
+154
+2
+19 0
+30 0
+0
+155
+2
+19 0
+32 0
+0
+155
+2
+19 0
+55 1
+0
+12
+2
+0 0
+43 0
+0
+13
+2
+7 0
+43 0
+0
+15
+2
+4 0
+36 0
+0
+23
+2
+0 0
+48 0
+0
+26
+2
+4 0
+47 0
+0
+92
+2
+0 0
+53 1
+0
+94
+2
+4 0
+49 0
+end_DTG
+begin_CG
+3
+4 1
+5 1
+56 5
+3
+6 1
+8 1
+56 5
+5
+9 1
+11 1
+52 1
+56 5
+51 1
+3
+12 1
+14 1
+56 4
+5
+0 1
+7 1
+16 1
+53 1
+56 6
+4
+0 1
+13 1
+16 1
+56 6
+5
+1 1
+7 1
+17 1
+50 1
+56 6
+4
+4 1
+6 1
+18 1
+56 8
+4
+1 1
+10 1
+17 1
+56 6
+4
+2 1
+10 1
+19 1
+56 7
+4
+8 1
+9 1
+20 1
+56 6
+5
+2 1
+15 1
+19 1
+55 1
+56 8
+4
+3 1
+13 1
+21 1
+56 6
+4
+5 1
+12 1
+22 1
+56 6
+4
+3 1
+15 1
+21 1
+56 7
+5
+14 1
+11 1
+23 1
+54 1
+56 7
+5
+4 1
+5 1
+18 1
+22 1
+56 9
+5
+6 1
+8 1
+18 1
+20 1
+56 9
+5
+7 1
+16 1
+17 1
+24 1
+56 8
+5
+9 1
+11 1
+20 1
+23 1
+56 9
+5
+10 1
+17 1
+19 1
+24 1
+56 8
+5
+12 1
+14 1
+22 1
+23 1
+56 8
+5
+13 1
+16 1
+21 1
+24 1
+56 8
+5
+15 1
+21 1
+19 1
+24 1
+56 9
+5
+18 1
+22 1
+20 1
+23 1
+56 8
+4
+28 1
+29 1
+50 1
+56 4
+6
+30 1
+32 1
+52 1
+55 1
+56 4
+51 1
+3
+33 1
+34 1
+56 4
+5
+25 1
+36 1
+37 1
+50 1
+56 6
+4
+25 1
+31 1
+37 1
+56 6
+5
+26 1
+31 1
+38 1
+52 1
+56 6
+4
+29 1
+30 1
+39 1
+56 6
+7
+26 1
+35 1
+38 1
+54 1
+52 1
+55 1
+56 6
+4
+27 1
+40 1
+41 1
+56 6
+5
+27 1
+35 1
+41 1
+54 1
+56 6
+6
+34 1
+32 1
+42 1
+54 1
+55 1
+56 6
+6
+28 1
+43 1
+44 1
+50 1
+53 1
+56 6
+6
+28 1
+29 1
+39 1
+44 1
+50 1
+56 8
+6
+30 1
+32 1
+39 1
+42 1
+55 1
+56 8
+5
+31 1
+37 1
+38 1
+45 1
+56 8
+4
+33 1
+46 1
+48 1
+56 6
+5
+33 1
+34 1
+42 1
+46 1
+56 8
+6
+35 1
+41 1
+38 1
+45 1
+54 1
+56 8
+5
+36 1
+47 1
+49 1
+53 1
+56 6
+5
+36 1
+37 1
+45 1
+47 1
+56 8
+5
+39 1
+42 1
+44 1
+46 1
+56 8
+5
+40 1
+41 1
+45 1
+47 1
+56 8
+6
+43 1
+44 1
+46 1
+48 1
+53 1
+56 8
+4
+40 1
+47 1
+49 1
+56 6
+4
+43 1
+48 1
+53 1
+56 4
+1
+56 3
+0
+1
+56 2
+1
+56 3
+1
+56 3
+1
+56 3
+0
+end_CG

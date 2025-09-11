@@ -25,8 +25,6 @@ def create_problem(domain_setup_fn: Callable[[Problem], dict]):
             restore_goals.append(fluent_expr)
 
 
-    #print(restore_goals)
-
     # Add both restoration and domain-specific goals
     for goal in restore_goals + domain_goals:
         problem.add_goal(goal)
@@ -36,34 +34,14 @@ def create_problem(domain_setup_fn: Callable[[Problem], dict]):
 
 # Select domain here
 problem = create_problem(setup_gridworld_domain)
-#print(problem.goals)
-#print(problem.initial_values)
 
-with OneshotPlanner(problem_kind=problem.kind) as planner:
-    result = planner.solve(problem)
-    plan = result.plan
-    if plan is not None:
-        print(f"{planner.name} returned:")
-        print(plan)
-    else:
-        print("No plan found.")
-
-# Uncomment to try blocksworld:
-# problem = create_problem(setup_blocksworld_domain)
-# print(problem.kind)
-# #print(problem)
-
-# with OneshotPlanner(problem_kind=problem.kind) as planner:
-#     result = planner.solve(problem)
-#     plan = result.plan
-#     if plan is not None:
-#         print("%s returned:" % planner.name)
-#         print(plan)
-#     else:
-#         print("No plan found.")
-
-
-# Optionally write to PDDL files
+# Write to PDDL files for the Stackelberg planner
 w = PDDLWriter(problem)
 w.write_domain('domain.pddl')
 w.write_problem('problem.pddl')
+
+# Uncomment to try blocksworld:
+# problem = create_problem(setup_blocksworld_domain)
+# w = PDDLWriter(problem)
+# w.write_domain('blocksworld_domain.pddl')
+# w.write_problem('blocksworld_problem.pddl')
