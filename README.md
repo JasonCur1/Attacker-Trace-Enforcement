@@ -14,3 +14,20 @@ python sim stuff
 2. if needed modify makefiles to use static linking option
 3. ./build_all
 4. ./stackelberg-planner-sls/src/fast-downward.py domain.pddl problem.pddl --search "sym_stackelberg(optimal_engine=symbolic(plan_reuse_minimal_task_upper_bound=false, plan_reuse_upper_bound=true), upper_bound_pruning=false)"
+
+
+python translate_independent.py
+./stackelberg-planner-sls/src/fast-downward.py domain.pddl problem.pddl --search "sym_stackelberg(optimal_engine=symbolic(plan_reuse_minimal_task_upper_bound=false, plan_reuse_upper_bound=true), upper_bound_pruning=false)"
+
+
+
+left off:
+implemented stackelberg (best of my ability)
+added time objects
+added time preconditions/effects to each action
+
+I don't understand output of planner?
+
+seems like fix actions don't have to obey turn-based stuff
+
+run and show output

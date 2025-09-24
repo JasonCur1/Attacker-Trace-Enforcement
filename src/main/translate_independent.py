@@ -18,15 +18,18 @@ def create_problem(domain_setup_fn: Callable[[Problem], dict]):
     domain_goals = setup_info.get("success_conditions", [])
 
     # Take snapshot of initial state for restoration goals
-    restore_goals = []
-    for fluent_expr, val in problem.initial_values.items():
-        # Check if the FNode is a Boolean constant with value TRUE
-        if val.is_bool_constant() and val.bool_constant_value():
-            restore_goals.append(fluent_expr)
+    # restore_goals = []
+    # for fluent_expr, val in problem.initial_values.items():
+    #     # Check if the FNode is a Boolean constant with value TRUE
+    #     if val.is_bool_constant() and val.bool_constant_value():
+    #         restore_goals.append(fluent_expr)
 
 
-    # Add both restoration and domain-specific goals
-    for goal in restore_goals + domain_goals:
+    # # Add both restoration and domain-specific goals
+    # for goal in restore_goals + domain_goals:
+    #     problem.add_goal(goal)
+
+    for goal in domain_goals:
         problem.add_goal(goal)
 
     return problem
