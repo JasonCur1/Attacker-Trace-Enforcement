@@ -3,7 +3,8 @@ from unified_planning.model import Problem, Fluent, Parameter, Object
 from unified_planning.io import PDDLWriter
 from typing import Callable, List
 
-from gridworld_domain import setup_gridworld_domain
+from sweeper_gridworld_domain import setup_gridworld_domain
+from environment_gridworld_domain import setup_domain
 from blocksworld_domain import setup_blocksworld_domain
 
 def create_problem(domain_setup_fn: Callable[[Problem], dict]):
@@ -18,25 +19,24 @@ def create_problem(domain_setup_fn: Callable[[Problem], dict]):
     domain_goals = setup_info.get("success_conditions", [])
 
     # Take snapshot of initial state for restoration goals
-    # restore_goals = []
-    # for fluent_expr, val in problem.initial_values.items():
-    #     # Check if the FNode is a Boolean constant with value TRUE
-    #     if val.is_bool_constant() and val.bool_constant_value():
-    #         restore_goals.append(fluent_expr)
+    restore_goals = []
+    for fluent_expr, val in problem.initial_values.items():
+        # Check if the FNode is a Boolean constant with value TRUE. Exclude static fluents
+        if val.is_bool_constant() and val.bool_constant_value() and 'static_' not in fluent_expr.fluent().name:
+            restore_goals.append(fluent_expr)
 
 
-    # # Add both restoration and domain-specific goals
-    # for goal in restore_goals + domain_goals:
-    #     problem.add_goal(goal)
-
-    for goal in domain_goals:
+    # Add both restoration and domain-specific goals
+    print("Goals:")
+    for goal in restore_goals + domain_goals:
+        print(goal)
         problem.add_goal(goal)
 
     return problem
 
 
 # Select domain here
-problem = create_problem(setup_gridworld_domain)
+problem = create_problem(setup_domain)
 
 # Write to PDDL files for the Stackelberg planner
 w = PDDLWriter(problem)

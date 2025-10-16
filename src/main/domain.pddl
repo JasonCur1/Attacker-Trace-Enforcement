@@ -1,37 +1,37 @@
 (define (domain generalized_domain-domain)
  (:requirements :strips :typing :negative-preconditions :equality :conditional-effects)
- (:types agent tile time)
+ (:types agent tile)
  (:constants
-   adversary_houdini leader_blart - agent
+   adversary_houdini leader_bob - agent
    t00 - tile
  )
- (:predicates (escaped) (is_current_timestep ?t - time) (is_next_timestep ?t1 - time ?t2 - time) (at_ ?a - agent ?t_0 - tile) (diamond_stolen) (diamond_at ?t_0 - tile) (no_trace_left ?t_0 - tile) (connected ?x - tile ?y - tile) (is_trace_tile ?t_0 - tile) (attacker_caught))
- (:action fix_move
-  :parameters ( ?curr - tile ?to - tile ?a - agent ?t1 - time ?t2 - time)
-  :precondition (and (= ?a leader_blart) (at_ ?a ?curr) (connected ?curr ?to) (is_current_timestep ?t1) (is_next_timestep ?t1 ?t2))
-  :effect (and (not (at_ ?a ?curr)) (at_ ?a ?to) (when (at_ adversary_houdini ?to) (attacker_caught)) (when (not (no_trace_left ?to)) (attacker_caught)) (not (is_current_timestep ?t1)) (is_current_timestep ?t2)))
- (:action fix_wait
-  :parameters ( ?loc - tile ?a - agent ?t1 - time ?t2 - time)
-  :precondition (and (at_ ?a ?loc) (= ?a leader_blart) (is_current_timestep ?t1) (is_next_timestep ?t1 ?t2))
-  :effect (and (at_ ?a ?loc) (not (is_current_timestep ?t1)) (is_current_timestep ?t2)))
+ (:predicates (static_connected ?x - tile ?y - tile) (static_at ?a - agent ?t - tile) (static_diamond_at ?t - tile) (diamond_stolen) (escaped) (static_is_trace_tile ?t - tile) (no_trace_left ?t - tile))
+ (:action fix_place_wall
+  :parameters ( ?curr - tile ?to - tile ?a - agent ?b - agent)
+  :precondition (and (= ?a leader_bob) (= ?b adversary_houdini) (static_connected ?curr ?to) (static_connected ?to ?curr) (not (static_diamond_at ?curr)) (not (static_diamond_at ?to)) (not (static_at ?b ?curr)) (not (static_at ?b ?to)))
+  :effect (and (not (static_connected ?curr ?to)) (not (static_connected ?to ?curr))))
+ (:action fix_place_trace_tile
+  :parameters ( ?curr - tile ?a - agent)
+  :precondition (and (= ?a leader_bob))
+  :effect (and (static_is_trace_tile ?curr)))
  (:action attack_move
-  :parameters ( ?curr - tile ?to - tile ?a - agent ?t1 - time ?t2 - time)
-  :precondition (and (at_ ?a ?curr) (connected ?curr ?to) (= ?a adversary_houdini) (is_current_timestep ?t1) (is_next_timestep ?t1 ?t2))
-  :effect (and (when (is_trace_tile ?to) (not (no_trace_left ?to))) (not (at_ ?a ?curr)) (at_ ?a ?to) (when (at_ leader_blart ?to) (attacker_caught)) (not (is_current_timestep ?t1)) (is_current_timestep ?t2)))
+  :parameters ( ?curr - tile ?to - tile ?a - agent)
+  :precondition (and (static_at ?a ?curr) (static_connected ?curr ?to) (= ?a adversary_houdini))
+  :effect (and (not (static_at ?a ?curr)) (static_at ?a ?to) (when (static_is_trace_tile ?to) (not (no_trace_left ?to)))))
  (:action attack_wait
-  :parameters ( ?loc - tile ?a - agent ?t1 - time ?t2 - time)
-  :precondition (and (at_ ?a ?loc) (= ?a adversary_houdini) (is_current_timestep ?t1) (is_next_timestep ?t1 ?t2))
-  :effect (and (at_ ?a ?loc) (not (is_current_timestep ?t1)) (is_current_timestep ?t2)))
+  :parameters ( ?curr - tile ?a - agent)
+  :precondition (and (static_at ?a ?curr) (= ?a adversary_houdini))
+  :effect (and (static_at ?a ?curr)))
  (:action attack_clean
-  :parameters ( ?curr - tile ?a - agent ?t1 - time ?t2 - time)
-  :precondition (and (at_ ?a ?curr) (not (no_trace_left ?curr)) (is_current_timestep ?t1) (is_next_timestep ?t1 ?t2))
-  :effect (and (no_trace_left ?curr) (not (is_current_timestep ?t1)) (is_current_timestep ?t2)))
+  :parameters ( ?curr - tile ?a - agent)
+  :precondition (and (static_at ?a ?curr) (= ?a adversary_houdini) (not (no_trace_left ?curr)))
+  :effect (and (no_trace_left ?curr)))
  (:action attack_steal
-  :parameters ( ?curr - tile ?a - agent ?t1 - time ?t2 - time)
-  :precondition (and (at_ ?a ?curr) (diamond_at ?curr) (is_current_timestep ?t1) (is_next_timestep ?t1 ?t2))
-  :effect (and (diamond_stolen) (not (is_current_timestep ?t1)) (is_current_timestep ?t2)))
+  :parameters ( ?curr - tile ?a - agent)
+  :precondition (and (static_at ?a ?curr) (= ?a adversary_houdini) (static_diamond_at ?curr))
+  :effect (and (diamond_stolen)))
  (:action attack_escape
-  :parameters ( ?curr - tile ?a - agent ?t1 - time ?t2 - time)
-  :precondition (and (at_ ?a ?curr) (= ?curr t00) (is_current_timestep ?t1) (is_next_timestep ?t1 ?t2) (diamond_stolen))
-  :effect (and (escaped) (not (is_current_timestep ?t1)) (is_current_timestep ?t2)))
+  :parameters ( ?curr - tile ?a - agent)
+  :precondition (and (static_at ?a ?curr) (= ?a adversary_houdini) (diamond_stolen) (= ?curr t00))
+  :effect (and (escaped)))
 )
