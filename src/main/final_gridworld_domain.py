@@ -1,16 +1,16 @@
 from unified_planning.shortcuts import *
-from unified_planning.model import Problem, Fluent, Object
+from unified_planning.model import Problem, Fluent, Object, InstantaneousAction
 import random
 
 random.seed(42)
 
 def setup_domain(problem: Problem, pc_count_by_segment=None):
-    # Set default PC counts if not provided
+    # Set default PC counts if not provided (7,7,5)
     if pc_count_by_segment is None:
         pc_count_by_segment = {
-            'external': 3,
-            'internal': 5,
-            'critical': 3
+            'external': 7,
+            'internal': 7,
+            'critical': 7
         }
     
     # Validate the configuration
@@ -20,6 +20,7 @@ def setup_domain(problem: Problem, pc_count_by_segment=None):
     
     if any(count < 1 for count in pc_count_by_segment.values()):
         raise ValueError("Each segment must have at least 1 PC")
+        
     # --- Type Hierarchy ---
     vulnerability = UserType('vulnerability')
     segment_type = UserType('segment') 
@@ -45,7 +46,7 @@ def setup_domain(problem: Problem, pc_count_by_segment=None):
     infrastructure_device = UserType('infrastructure-device', network_node)
     firewall = UserType('firewall', infrastructure_device)
     
-    # Combined PC type (no switches or routers needed for logical SSH connections)
+    # Combined PC type
     pc = UserType('pc', host)
 
     # --- Fluents ---
@@ -59,9 +60,10 @@ def setup_domain(problem: Problem, pc_count_by_segment=None):
     data_stolen = Fluent('data_stolen')
     logs_cleaned = Fluent('logs_cleaned', h=host)
     escaped = Fluent('escaped')
-
+    
     fluent_list = [
-        at, vulnerable, can_ssh, has_local_privilege, separated_by, in_segment, data_stolen, logs_cleaned, escaped
+        at, vulnerable, can_ssh, has_local_privilege, separated_by, in_segment, 
+        data_stolen, logs_cleaned, escaped
     ]
 
     for f in fluent_list:
@@ -69,9 +71,18 @@ def setup_domain(problem: Problem, pc_count_by_segment=None):
 
     # --- Object Creation ---
     
-    # Generic vulnerability
-    cve1 = Object('cve1', vulnerability)
-    problem.add_object(cve1)
+    # Segment-specific vulnerabilities (2 external, 2 internal, 2 critical)
+    ext_cve1 = Object('ext_cve1', vulnerability)
+    ext_cve2 = Object('ext_cve2', vulnerability)
+    ext_cve3 = Object('ext_cve3', vulnerability)
+    ext_cve4 = Object('ext_cve4', vulnerability)
+    int_cve1 = Object('int_cve1', vulnerability)
+    int_cve2 = Object('int_cve2', vulnerability)
+    int_cve3 = Object('int_cve3', vulnerability)
+    int_cve4 = Object('int_cve4', vulnerability)
+    
+    for cve in [ext_cve1, ext_cve2, ext_cve3, ext_cve4, int_cve1, int_cve2, int_cve3, int_cve4]:
+        problem.add_object(cve)
 
     # Create segment objects first
     external_segment = Object('external_segment', segment_type)
@@ -99,7 +110,16 @@ def setup_domain(problem: Problem, pc_count_by_segment=None):
             name = f"pc{counter}"
             obj = Object(name, pc)
             problem.set_initial_value(logs_cleaned(obj), True)
-            problem.set_initial_value(vulnerable(obj, cve1), True)
+            
+            # Distribute segment-specific CVEs (alternating)
+            if seg_name == 'external':
+                ext_cves = [ext_cve1, ext_cve2, ext_cve3, ext_cve4]
+                cve = ext_cves[i % 4]
+            elif seg_name == 'internal':
+                int_cves = [int_cve1, int_cve2, int_cve3, int_cve4]
+                cve = int_cves[i % 4]
+                
+            problem.set_initial_value(vulnerable(obj, cve), True)
             problem.set_initial_value(in_segment(obj, seg_obj), True)
             pc_dict[name] = obj
             problem.add_object(obj)
@@ -188,12 +208,20 @@ def setup_domain(problem: Problem, pc_count_by_segment=None):
     attack_escalate.add_effect(has_local_privilege(a, h, root_lvl), True)
     problem.add_action(attack_escalate)
 
-    # 3. Move (Requires Root at Source)
+    # 3. Move
     attack_ssh_move = InstantaneousAction('attack_move_ssh', a=agent_type, src=host, dest=host)
     a, src, dest = attack_ssh_move.parameters
     attack_ssh_move.add_precondition(Equals(a, attacker))
     attack_ssh_move.add_precondition(at(a, src))
-    attack_ssh_move.add_precondition(has_local_privilege(a, src, root_lvl))
+    attack_ssh_move.add_precondition(
+        Or(
+            has_local_privilege(a, src, root_lvl),
+            And(
+                in_segment(src, external_segment),
+                in_segment(dest, external_segment)
+            )
+        )
+    )
     attack_ssh_move.add_precondition(can_ssh(src, dest))
     attack_ssh_move.add_effect(at(a, src), False)
     attack_ssh_move.add_effect(at(a, dest), True)
@@ -229,13 +257,40 @@ def setup_domain(problem: Problem, pc_count_by_segment=None):
     problem.add_action(attack_log_off)
 
     # -- Defender Actions --
+    
+    fix_patch_cve = InstantaneousAction('fix_patch_cve', a=agent_type, h=host, v=vulnerability)
+    a, h, v = fix_patch_cve.parameters
+    fix_patch_cve.add_precondition(Equals(a, defender))
+    fix_patch_cve.add_precondition(vulnerable(h, v))
+    fix_patch_cve.add_effect(vulnerable(h, v), False)
+    problem.add_action(fix_patch_cve)
+
     fix_update_firewall_ruleset = InstantaneousAction('fix_update_firewall_ruleset', a=agent_type, f=firewall, src=host, dest=host, s_src=segment_type, s_dest=segment_type)
     a, f, src, dest, s_src, s_dest = fix_update_firewall_ruleset.parameters
+    
     fix_update_firewall_ruleset.add_precondition(Equals(a, defender))
     fix_update_firewall_ruleset.add_precondition(can_ssh(src, dest))
     fix_update_firewall_ruleset.add_precondition(in_segment(src, s_src))
     fix_update_firewall_ruleset.add_precondition(in_segment(dest, s_dest))
     fix_update_firewall_ruleset.add_precondition(separated_by(s_src, s_dest, f))
+    
+    other_src = Variable('other_src', host)
+    other_dest = Variable('other_dest', host)
+    
+    backup_connection_exists = Exists(
+        And(
+            in_segment(other_src, s_src),
+            in_segment(other_dest, s_dest),
+            can_ssh(other_src, other_dest),
+            Or(
+                Not(Equals(src, other_src)),
+                Not(Equals(dest, other_dest))
+            )
+        ),
+        other_src, other_dest
+    )
+    
+    fix_update_firewall_ruleset.add_precondition(backup_connection_exists)
     fix_update_firewall_ruleset.add_effect(can_ssh(src, dest), False)
     problem.add_action(fix_update_firewall_ruleset)
 

@@ -3,9 +3,10 @@ from unified_planning.model import Problem, Fluent, Parameter, Object
 from unified_planning.io import PDDLWriter
 from typing import Callable, List
 
-from sweeper_gridworld_domain import setup_gridworld_domain
-from environment_gridworld_domain import setup_domain
-from blocksworld_domain import setup_blocksworld_domain
+#from sweeper_gridworld_domain import setup_gridworld_domain
+#from environment_gridworld_domain import setup_domain
+#from blocksworld_domain import setup_blocksworld_domain
+from final_gridworld_domain import setup_domain
 
 def create_problem(domain_setup_fn: Callable[[Problem], dict]):
     """
